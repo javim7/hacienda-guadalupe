@@ -29,7 +29,7 @@ export default function Header() {
               />
             </div>
 
-            <span className="text-2xl font-bold tracking-wide brand-text">Hacienda Guadalupe</span>
+            <span className="text-2xl font-bold font-serif tracking-wide brand-text">Hacienda Guadalupe</span>
           </Link>
         </div>
 
@@ -51,7 +51,7 @@ export default function Header() {
             }}
             aria-label="Contacto"
           >
-            Contacto
+            Contáctanos
           </Link>
         </div>
 
@@ -98,7 +98,7 @@ export default function Header() {
               }}
               aria-label="Contacto"
             >
-              Contacto
+              Contáctanos
             </Link>
           </div>
         </div>

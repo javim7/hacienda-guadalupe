@@ -3,11 +3,17 @@
 @tailwind components;
 @tailwind utilities;
 
+
 /* -- Marca: cambia aquí el color corinto si quieres otro tono */
 :root {
   --brand-corinto: #B22222; /* color corinto — cámbialo si prefieres otro */
   --brand-corinto-light: #C85B5B;   /* versión más suave para botones */
-  --brand-contrast: #ffffff;
+  --brand-corinto-dark: #7F1414;    /* hover / acento oscuro */
+  --brand-contrast: #ffffff;        /* texto sobre brand */
+
+  /* BEIGE / fondo suave para secciones */
+  --muted: #f3efe9;         /* beige claro (cambia el hex si quieres otro tono) */
+  --muted-2: #f6f5f2;       /* variante si la usas en otros lugares */
 }
 
 /* clases utilitarias pequeñas */

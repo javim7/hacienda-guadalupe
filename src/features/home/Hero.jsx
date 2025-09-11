@@ -4,8 +4,8 @@ import Link from 'next/link'
 
 export default function Hero({
   imageSrc = '/images/hero.jpg',
-  title = 'Pasture Raised Raw Milk\nStraight from the Farm',
-  ctaText = 'About Our Herdshare',
+  title = 'Hacienda Guadalupe\nTradición e innovación agrícola en Guatemala',
+  ctaText = 'Conoce Más Sobre Nosotros',
   ctaHref = '/about'
 }) {
   return (
