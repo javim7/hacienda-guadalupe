@@ -1,5 +1,14 @@
-import "@/styles/globals.css";
+// src/pages/_app.jsx
+import '@/styles/globals.css' // si usas alias @
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+export default function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <Header />
+      <Component {...pageProps} />
+      <Footer />
+    </>
+  )
 }

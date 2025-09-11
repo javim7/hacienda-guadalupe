@@ -1,26 +1,47 @@
-@import "tailwindcss";
+/* src/styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+/* -- Marca: cambia aquí el color corinto si quieres otro tono */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --brand-corinto: #B22222; /* color corinto — cámbialo si prefieres otro */
+  --brand-corinto-light: #C85B5B;   /* versión más suave para botones */
+  --brand-contrast: #ffffff;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* clases utilitarias pequeñas */
+.brand-text { color: var(--brand-corinto); }
+.brand-bg { background-color: var(--brand-corinto); color: var(--brand-contrast); }
+
+.brand-btn {
+  background-color: var(--brand-corinto-light);
+  color: var(--brand-contrast);
+}
+.brand-btn:hover {
+  background-color: var(--brand-corinto); /* hover oscuro */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* pequeño ajuste visual para el "hero" del header */
+.header-hero {
+  /* altura aproximada; puedes ajustar */
+  padding-top: 48px;
+  padding-bottom: 40px;
+}
+.header-hero .nav-links a {
+  text-decoration: underline;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+* estilo para enlaces del footer */
+.footer-link {
+  color: rgba(255,255,255,0.95);
+  text-decoration: underline;
 }
+.footer-link:hover {
+  color: rgba(255,255,255,1);
+  text-decoration: underline;
+}
+
+/* reset / global */
+html,body,#__next { height: 100%; }
+body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial; }
