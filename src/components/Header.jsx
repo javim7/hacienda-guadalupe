@@ -2,16 +2,10 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import Navigation from './Navigation'
 
 export default function Header() {
   const [open, setOpen] = useState(false)
-
-  const navItems = [
-    { href: '/', label: 'Inicio' },
-    { href: '/about', label: 'Sobre Nosotros' },
-    { href: '/cultivos', label: 'Cultivos' },
-    { href: '/proyectos', label: 'Proyectos Extra' }
-  ]
 
   return (
     <header className="bg-white/95 backdrop-blur-sm border-b sticky top-0 z-50">
@@ -34,13 +28,10 @@ export default function Header() {
         </div>
 
         <div className="hidden md:flex items-center gap-8">
-          <nav className="flex items-center gap-8">
-            {navItems.map((n) => (
-              <Link key={n.href} href={n.href} className="hover:underline px-3 py-2 text-base">
-                {n.label}
-              </Link>
-            ))}
-          </nav>
+          <Navigation 
+            className="flex items-center gap-8"
+            linkClassName="hover:underline px-3 py-2 text-base"
+          />
 
           <Link
             href="/contacto"
@@ -77,16 +68,11 @@ export default function Header() {
       {open && (
         <div className="md:hidden border-t bg-white/95">
           <div className="px-4 py-4 flex flex-col gap-2">
-            {navItems.map((n) => (
-              <Link
-                key={n.href}
-                href={n.href}
-                className="py-3 px-3 rounded hover:bg-gray-100 block text-base"
-                onClick={() => setOpen(false)}
-              >
-                {n.label}
-              </Link>
-            ))}
+            <Navigation 
+              className="flex flex-col gap-2"
+              linkClassName="py-3 px-3 rounded hover:bg-gray-100 block text-base"
+              onClick={() => setOpen(false)}
+            />
 
             <Link
               href="/contacto"

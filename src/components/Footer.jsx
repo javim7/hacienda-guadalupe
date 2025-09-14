@@ -1,17 +1,18 @@
 // src/components/Footer.jsx
+import Navigation from './Navigation'
+
 export default function Footer() {
     return (
       <footer className="brand-bg text-white">
         <div className="max-w-6xl mx-auto px-6 py-8 text-center">
           <h2 className="text-2xl font-serif font-semibold mb-3">Hacienda Guadalupe</h2>
   
-          {/* Links principales (centrados) */}
           <nav className="mb-4">
             <ul className="flex flex-wrap justify-center gap-6 text-sm">
-              <li><a href="/" className="footer-link">Inicio</a></li>
-              <li><a href="/about" className="footer-link">Sobre Nosotros</a></li>
-              <li><a href="/cultivos" className="footer-link">Cultivos</a></li>
-              <li><a href="/proyectos" className="footer-link">Proyectos Extra</a></li>
+              <Navigation 
+                linkClassName="footer-link"
+                asList={true}
+              />
               <li><a href="/contacto" className="footer-link">Contacto</a></li>
             </ul>
           </nav>
