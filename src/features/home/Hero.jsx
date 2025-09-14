@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Hero({
-  imageSrc = '/images/hero.jpg',
+  imageSrc = '/images/vacas.JPG',
   title = 'Hacienda Guadalupe\nTradición e innovación agrícola en Guatemala',
   ctaText = 'Conoce Más Sobre Nosotros',
   ctaHref = '/about'
@@ -35,7 +35,7 @@ export default function Hero({
           
           <Link
             href={ctaHref}
-            className="inline-block bg-white text-[#334433] px-5 py-2 rounded-md font-medium shadow-sm hover:shadow-md transition"
+            className="inline-block bg-white text-[var(--brand-corinto)] px-5 py-2 rounded-md font-medium shadow-sm hover:shadow-md transition"
             aria-label={ctaText}
           >
             {ctaText}

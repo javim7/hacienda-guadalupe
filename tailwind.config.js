@@ -6,7 +6,12 @@ module.exports = {
       './src/features/**/*.{js,jsx,ts,tsx}',
     ],
     theme: {
-      extend: {},
+      extend: {
+        screens: {
+          'mobile': '480px',    // Custom breakpoint for mobile
+          'tablet': '950px',    // Custom breakpoint for tablet
+        },
+      },
     },
     plugins: [],
   }

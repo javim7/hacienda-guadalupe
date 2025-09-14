@@ -12,8 +12,8 @@ export default function Footer() {
               <Navigation 
                 linkClassName="footer-link"
                 asList={true}
+                includeContact={true}
               />
-              <li><a href="/contacto" className="footer-link">Contacto</a></li>
             </ul>
           </nav>
   
@@ -37,8 +37,17 @@ export default function Footer() {
               className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-white/10 hover:bg-white/20"
             >
               {/* simple SVG facebook icon */}
-              <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                <path d="M22 12.07C22 6.48 17.52 2 11.93 2S2 6.48 2 12.07c0 4.99 3.66 9.12 8.44 9.95v-7.05H8.08v-2.9h2.36V9.41c0-2.33 1.39-3.62 3.52-3.62.  1.02 0 2.08.18 2.08.18v2.29h-1.17c-1.15 0-1.51.72-1.51 1.46v1.76h2.57l-.41 2.9h-2.16v7.05C18.34 21.19 22 17.06 22 12.07z" />
+              <svg
+                className="w-8 h-8"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <path
+                  d="M15.12 8.667H13.5c-.262 0-.5.238-.5.5v1.5h2.117l-.283 2.333H13v6h-2.333v-6H9v-2.333h1.667v-1.5c0-1.667 1.166-3 2.833-3h1.617v2z"
+                  fill="currentColor"
+                />
               </svg>
             </a>
   

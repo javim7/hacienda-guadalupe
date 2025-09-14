@@ -27,26 +27,20 @@ export default function Header() {
           </Link>
         </div>
 
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden tablet:flex items-center gap-8">
           <Navigation 
             className="flex items-center gap-8"
             linkClassName="hover:underline px-3 py-2 text-base"
-          />
-
-          <Link
-            href="/contacto"
-            className="ml-3 inline-block px-5 py-3 rounded-md font-medium text-base shadow-sm"
-            style={{
+            contactButtonStyle={true}
+            contactClassName="ml-3 inline-block px-5 py-3 rounded-md font-medium text-base shadow-sm"
+            contactStyle={{
               backgroundColor: 'var(--brand-corinto-light)',
               color: 'var(--brand-contrast)'
             }}
-            aria-label="Contacto"
-          >
-            Contáctanos
-          </Link>
+          />
         </div>
 
-        <div className="md:hidden">
+        <div className="tablet:hidden">
           <button
             type="button"
             onClick={() => setOpen((v) => !v)}
@@ -66,26 +60,20 @@ export default function Header() {
       </div>
 
       {open && (
-        <div className="md:hidden border-t bg-white/95">
+        // cambiar tablet a md si es necesario regresar
+        <div className="tablet:hidden border-t bg-white/95">
           <div className="px-4 py-4 flex flex-col gap-2">
             <Navigation 
               className="flex flex-col gap-2"
               linkClassName="py-3 px-3 rounded hover:bg-gray-100 block text-base"
               onClick={() => setOpen(false)}
-            />
-
-            <Link
-              href="/contacto"
-              onClick={() => setOpen(false)}
-              className="mt-2 block text-center px-5 py-3 rounded-md text-base"
-              style={{
+              contactButtonStyle={true}
+              contactClassName="mt-2 block text-center px-5 py-3 rounded-md text-base"
+              contactStyle={{
                 backgroundColor: 'var(--brand-corinto-light)',
                 color: 'var(--brand-contrast)'
               }}
-              aria-label="Contacto"
-            >
-              Contáctanos
-            </Link>
+            />
           </div>
         </div>
       )}

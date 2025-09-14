@@ -23,9 +23,10 @@
 .brand-btn {
   background-color: var(--brand-corinto-light);
   color: var(--brand-contrast);
+  transition: opacity 0.3s ease;
 }
 .brand-btn:hover {
-  background-color: var(--brand-corinto); /* hover oscuro */
+  opacity: 0.8; /* fade effect only, no color change */
 }
 
 /* pequeño ajuste visual para el "hero" del header */
@@ -46,6 +47,22 @@
 .footer-link:hover {
   color: rgba(255,255,255,1);
   text-decoration: underline;
+}
+
+/* button fade effects */
+.btn-fade {
+  transition: opacity 0.3s ease;
+}
+.btn-fade:hover {
+  opacity: 0.8;
+}
+
+/* specific button styles with fade effects */
+button, .btn, [class*="px-"][class*="py-"][class*="rounded"] {
+  transition: opacity 0.3s ease;
+}
+button:hover, .btn:hover, [class*="px-"][class*="py-"][class*="rounded"]:hover {
+  opacity: 0.8;
 }
 
 /* reset / global */

@@ -9,7 +9,7 @@ export default function HomePage() {
     <>
 
       <Hero
-        imageSrc="/images/hero.jpg"
+        imageSrc="/images/vacas.JPG"
         title={'Tradición e innovación agrícola en Guatemala\nCultivando calidad y sostenibilidad en cada proyecto'}
         ctaText="Conoce Más Sobre Nosotros"
         ctaHref="/about"
@@ -22,7 +22,7 @@ export default function HomePage() {
 Our herd of 38 jersey cows is raised on pasture, with as much of their food as possible grown on the farm. They aren't given vaccinations or growth hormones and on the rare occasion when we need to give a cow antibiotics, their milk is not shared with our customers. Our milk is tested weekly and our equipment is sanitized four times each day, giving you confidence in the safety of our raw milk.`}
         ctaText="About Our Farm"
         ctaHref="/about"
-        imageSrc="/images/feeding.jpg"
+        imageSrc="/images/hule.JPG"
         imageAlt="Person feeding a calf"
       />
 
