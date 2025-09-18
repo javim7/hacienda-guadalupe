@@ -1,4 +1,5 @@
 // src/features/about/Team.jsx
+import Image from 'next/image'
 
 export default function Team() {
   return (
@@ -9,7 +10,7 @@ export default function Team() {
             Nuestro Equipo
           </h2>
 
-          <div className="text-base md:text-lg text-gray-800 leading-relaxed">
+          <div className="text-base md:text-lg text-gray-800 leading-relaxed mb-8">
             <p className="mb-6">
               Bajo la dirección de Roberto Mombiela Bruni, nuestro equipo combina la sabiduría 
               tradicional de generaciones de agricultores con un enfoque moderno hacia la 
@@ -26,6 +27,22 @@ export default function Team() {
               Trabajamos juntos para mantener viva la tradición familiar mientras exploramos 
               nuevas fronteras en la agricultura sostenible, asegurando que Hacienda Guadalupe 
               continúe siendo un referente de calidad y responsabilidad ambiental en Guatemala.
+            </p>
+          </div>
+
+          {/* Team Image */}
+          <div className="w-full max-w-4xl mx-auto">
+            <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
+              <Image
+                src="/images/team.JPG"
+                alt="Equipo de Hacienda Guadalupe"
+                fill
+                style={{ objectFit: 'cover', objectPosition: 'center' }}
+                className="transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+            <p className="text-sm text-gray-600 mt-4 italic">
+              Familia Mombiela en una feria ganadera
             </p>
           </div>
         </div>

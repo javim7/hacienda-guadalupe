@@ -1,5 +1,6 @@
 // src/components/Navigation.jsx
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 
 export const navItems = [
   { href: '/about', label: 'Sobre Nosotros' },
@@ -19,6 +20,8 @@ export default function Navigation({
   contactClassName = '',
   contactStyle = {}
 }) {
+  const pathname = usePathname()
+  
   // Filter items based on includeContact prop
   const itemsToRender = includeContact ? navItems : navItems.filter(item => item.href !== '/contact')
   
@@ -40,11 +43,17 @@ export default function Navigation({
     }
     
     // Regular navigation items
+    // Add underline for selected tabs (excluding homepage and contact)
+    const isSelected = pathname === item.href && item.href !== '/contact'
+    const linkClasses = isSelected 
+      ? `${linkClassName} underline` 
+      : linkClassName
+    
     return (
       <Link 
         key={item.href} 
         href={item.href} 
-        className={linkClassName}
+        className={linkClasses}
         onClick={onClick}
       >
         {item.label}

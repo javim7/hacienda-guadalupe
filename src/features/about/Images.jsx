@@ -13,7 +13,7 @@ export default function Images() {
   return (
     <section className="w-full -mb-px">
       {/* Hero Image - Full Width */}
-      <div className="w-full relative h-[40vh] sm:h-[45vh] md:h-[50vh]">
+      {/* <div className="w-full relative h-[40vh] sm:h-[45vh] md:h-[50vh]">
         <Image
           src="/images/team.JPG"
           alt="Hacienda Guadalupe - Vista panorámica"
@@ -21,7 +21,7 @@ export default function Images() {
           style={{ objectFit: 'cover', objectPosition: 'center' }}
           priority
         />
-      </div>
+      </div> */}
 
       {/* Grid Images - 2 columns */}
       <div className="w-full bg-white py-16 md:py-20">
