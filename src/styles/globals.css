@@ -49,6 +49,16 @@
   text-decoration: underline;
 }
 
+/* estilo para enlaces de contacto sin subrayado */
+.footer-contact-link {
+  color: rgba(255,255,255,0.95);
+  text-decoration: none;
+}
+.footer-contact-link:hover {
+  color: rgba(255,255,255,1);
+  text-decoration: none;
+}
+
 /* button fade effects */
 .btn-fade {
   transition: opacity 0.3s ease;

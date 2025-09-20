@@ -1,5 +1,5 @@
-import CropsPage from '@/components/CropsPage';
+import CultivosPage from '@/components/CultivosPage';
 
 export default function Crops() {
-  return <CropsPage />;
+  return <CultivosPage />;
 }
