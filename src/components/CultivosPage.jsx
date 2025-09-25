@@ -39,7 +39,7 @@ export default function Cultivos() {
           "Tradición cafetalera guatemalteca",
           "Granos seleccionados cuidadosamente"
         ]}
-        imageSrc="/images/hero.jpg"
+        imageSrc="/images/cafe.JPG"
         imageAlt="Cultivo de café en Hacienda Guadalupe"
         linkHref="/cultivos/cafe"
         reverse={true}
@@ -56,7 +56,7 @@ export default function Cultivos() {
           "Técnicas tradicionales e innovadoras",
           "Cultivo en crecimiento sostenido"
         ]}
-        imageSrc="/images/feeding.jpg"
+        imageSrc="/images/mangostan.JPG"
         imageAlt="Cultivo de mangostán en Hacienda Guadalupe"
         linkHref="/cultivos/mangostan"
         reverse={false}

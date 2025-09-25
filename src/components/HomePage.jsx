@@ -15,24 +15,21 @@ export default function HomePage() {
         ctaHref="/about"
       />
 
-      <Summary
-        title="Hacienda Guadalupe"
-        text={`Our family farm is committed to raising our animals with care and respect to produce the healthiest, safest raw milk for our community here in Hopkins, MI, and throughout Southwest Michigan. 
+    <Summary
+      title="Hacienda Guadalupe"
+      text={`Hacienda Guadalupe es una finca familiar fundada en 1956 por Roberto Mombiela de León, continuando una tradición agrícola de más de 150 años. Bajo la dirección de Roberto Mombiela Bruni, la finca diversifica sus cultivos con sostenibilidad y técnica: mangostán en expansión, café robusta en sistema intensivo, y proyectos innovadores como pitahaya, bambú y producción de microalgas (Chlorella). Nuestro enfoque combina herencia familiar, innovación y cuidado del suelo para producir con calidad y responsabilidad.`}
+      ctaText="Sobre Nuestra Finca"
+      ctaHref="/about"
+      imageSrc="/images/hule.JPG"
+      imageAlt="Persona alimentando una ternera"
+    />
 
-Our herd of 38 jersey cows is raised on pasture, with as much of their food as possible grown on the farm. They aren't given vaccinations or growth hormones and on the rare occasion when we need to give a cow antibiotics, their milk is not shared with our customers. Our milk is tested weekly and our equipment is sanitized four times each day, giving you confidence in the safety of our raw milk.`}
-        ctaText="About Our Farm"
-        ctaHref="/about"
-        imageSrc="/images/hule.JPG"
-        imageAlt="Person feeding a calf"
-      />
-
-      <Context
-        title="More than Just Milk"
-        text={`While Positively Grown is a dairy farm, we also raise pastured beef and eggs. Additionally, we are curating an ever-growing selection of other products for you to purchase. We work with other local farmers to be able to provide you with raw unfiltered honey and fresh homemade bread. Just like great great grandma used to make!
-(etc.)`}
-        ctaText="About Our Partners"
-        ctaHref="/partners"
-      />
+    <Context
+      title="Nuestros Cultivos"
+      text={`En Hacienda Guadalupe cultivamos hule, café y mangostán con prácticas sostenibles y técnicas modernas. Nuestro hule crece en suelo arcilloso rojo y se recolecta con picadores especializados para obtener látex y chipa de primera. El café robusta recibe riego y nutrición de precisión en un sistema intensivo que maximiza su productividad. Y el mangostán, proyecto joven, se cuida con manejo biológico y bioinsumos para asegurar frutos de alta calidad.`}
+      ctaText="Sobre Nuestros Cultivos"
+      ctaHref="/crops"
+    />
     </>
   )
 }
