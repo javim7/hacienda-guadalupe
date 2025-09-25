@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Images() {
   // Image routes list - easily modify by adding/removing routes here
   const imageRoutes = [
-    '/images/hulera.JPG',
+    '/images/hule3.JPG',
     '/images/vaca.JPG',
     '/images/vaca2.JPG',
     '/images/hule2.JPG',
