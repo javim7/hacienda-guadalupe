@@ -10,14 +10,14 @@ export default function HomePage() {
 
       <Hero
         imageSrc="/images/vacas.JPG"
-        title={'Tradición e innovación agrícola en Guatemala\nCultivando calidad y sostenibilidad en cada proyecto'}
-        ctaText="Conoce Más Sobre Nosotros"
-        ctaHref="/about"
+        title={'Tradición e innovación agrícola y ganadera en Guatemala\nRealizando un manejo regenerativo y sostenible en cada proyecto'}
+        ctaText="Contáctanos"
+        ctaHref="/contact"
       />
 
     <Summary
       title="Hacienda Guadalupe"
-      text={`Hacienda Guadalupe es una finca familiar fundada en 1956 por Roberto Mombiela de León, continuando una tradición agrícola de más de 150 años. Bajo la dirección de Roberto Mombiela Bruni, la finca diversifica sus cultivos con sostenibilidad y técnica: mangostán en expansión, café robusta en sistema intensivo, y proyectos innovadores como pitahaya, bambú y producción de microalgas (Chlorella). Nuestro enfoque combina herencia familiar, innovación y cuidado del suelo para producir con calidad y responsabilidad.`}
+      text={`Hacienda Guadalupe, fundada en 1958 por Roberto Mombiela de León, continúa una tradición agrícola y ganadera familiar con más de 150 años en Guatemala. Actualmente, bajo el cuidado de la tercera generación, la hacienda mantiene viva esa herencia combinándola con una visión de innovación y sostenibilidad. Con orgullo y responsabilidad, trabaja por conservar la fertilidad del suelo y proteger la flora y fauna del entorno, reafirmando su compromiso con el desarrollo sostenible para las futuras generaciones.`}
       ctaText="Sobre Nuestra Finca"
       ctaHref="/about"
       imageSrc="/images/hule.JPG"
@@ -26,7 +26,7 @@ export default function HomePage() {
 
     <Context
       title="Nuestros Cultivos"
-      text={`En Hacienda Guadalupe cultivamos hule, café y mangostán con prácticas sostenibles y técnicas modernas. Nuestro hule crece en suelo arcilloso rojo y se recolecta con picadores especializados para obtener látex y chipa de primera. El café robusta recibe riego y nutrición de precisión en un sistema intensivo que maximiza su productividad. Y el mangostán, proyecto joven, se cuida con manejo biológico y bioinsumos para asegurar frutos de alta calidad.`}
+      text={`En Hacienda Guadalupe cultivamos hule, café y mangostán con prácticas sostenibles y técnicas modernas. En nuestra plantación de hule, la extracción y recolección de látex se realiza con mano de obra especializada. El café robusta recibe riego y nutrición de precisión en un sistema intensivo que maximiza su productividad. Y el mangostán, proyecto joven, se cuida con manejo biológico y bioinsumos para asegurar frutos de alta calidad.`}
       ctaText="Sobre Nuestros Cultivos"
       ctaHref="/crops"
     />

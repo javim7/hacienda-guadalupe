@@ -27,7 +27,7 @@ export default function Hero({
         style={{ backgroundColor: 'var(--brand-corinto-light)', color: 'var(--brand-contrast)' }}
       >
         <div className="mx-auto w-full px-6 md:px-8 lg:px-16 max-w-[1400px] text-center">
-          <h1 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight md:leading-snug mb-4">
+          <h1 className="font-serif text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight md:leading-snug mb-4">
             {title.split('\n').map((line, i) => (
               <span key={i} className="block">{line}</span>
             ))}
