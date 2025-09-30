@@ -1,7 +1,7 @@
 // src/features/home/Context.jsx
 import Link from 'next/link'
 
-export default function Context({
+export default function Crops({
   title = 'More than Just Milk',
   text = `While Positively Grown is a dairy farm, we also raise pastured beef and eggs. Additionally, we are curating an ever-growing selection of other products for you to purchase. We work with other local farmers to be able to provide you with raw unfiltered honey and fresh homemade bread. Just like great great grandma used to make!`,
   ctaText = 'About Our Partners',

@@ -4,8 +4,8 @@ import { usePathname } from 'next/navigation'
 
 export const navItems = [
   { href: '/about', label: 'Sobre Nosotros' },
-  { href: '/cattle', label: 'Ganado' },
   { href: '/crops', label: 'Cultivos' },
+  { href: '/cattle', label: 'Ganado' },
   { href: '/projects', label: 'Proyectos Extra' },
   { href: '/contact', label: 'Contacto', isButton: false } // Default to regular link
 ]

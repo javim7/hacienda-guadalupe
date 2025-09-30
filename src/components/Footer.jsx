@@ -52,7 +52,7 @@ export default function Footer() {
             </a>
   
             <div className="text-xs opacity-90">
-            © Hacienda Guadalupe – Tradición e innovación agrícola en Guatemala.
+            © Hacienda Guadalupe – Tradición e innovación agrícola y ganadera en Guatemala.
             </div>
           </div>
         </div>

@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default function Summary({
+export default function About({
   title = 'Hacienda Guadalupe',
   text = `Our family farm is committed to raising our animals with care and respect to produce the healthiest, safest raw milk for our community here in Hopkins, MI, and throughout Southwest Michigan.
 
