@@ -23,7 +23,7 @@ export default function Projects() {
           "Ecosistema más saludable",
           "Biodiversidad preservada"
         ]}
-        imageSrc="/images/hule.JPG"
+        imageSrc="/images/Hule/hule.JPG"
         imageAlt="Colmenas y producción de miel en Hacienda Guadalupe"
         linkHref="/proyectos/miel"
         reverse={false}
@@ -39,7 +39,7 @@ export default function Projects() {
           "Cultivo innovador y sostenible",
           "Adaptación perfecta al clima"
         ]}
-        imageSrc="/images/cafe.JPG"
+        imageSrc="/images/Cafe/cafe.JPG"
         imageAlt="Cultivo de pitahaya en Hacienda Guadalupe"
         linkHref="/proyectos/pitahaya"
         reverse={true}
@@ -56,7 +56,7 @@ export default function Projects() {
           "Agricultura sostenible de vanguardia",
           "Mejora la salud de cultivos"
         ]}
-        imageSrc="/images/mangostan.JPG"
+        imageSrc="/images/Mangostan/mangostan.JPG"
         imageAlt="Cultivo de microalgas Chlorella en Hacienda Guadalupe"
         linkHref="/proyectos/chlorella"
         reverse={false}
@@ -72,7 +72,7 @@ export default function Projects() {
           "Múltiples aplicaciones industriales",
           "Recurso renovable de rápido crecimiento"
         ]}
-        imageSrc="/images/mangostan.JPG"
+        imageSrc="/images/Mangostan/mangostan.JPG"
         imageAlt="Cultivo de bambú en Hacienda Guadalupe"
         linkHref="/proyectos/bamboo"
         reverse={true}

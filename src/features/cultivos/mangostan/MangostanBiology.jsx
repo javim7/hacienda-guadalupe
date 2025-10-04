@@ -9,7 +9,7 @@ export default function MangostanBiology() {
         <div className="order-2 md:order-1">
           <div className="w-full h-56 sm:h-72 md:h-full relative overflow-hidden">
             <Image
-              src="/images/mangostan4.JPG"
+              src="/images/Mangostan/mangostan1.heic"
               alt="Manejo biológico del mangostán en Hacienda Guadalupe"
               fill
               style={{ objectFit: 'cover', objectPosition: 'center' }}

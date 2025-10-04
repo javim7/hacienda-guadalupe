@@ -40,7 +40,7 @@ export default function MangostanIntroduction() {
         <div className="order-2 md:order-2">
           <div className="w-full h-56 sm:h-72 md:h-full relative overflow-hidden">
             <Image
-              src="/images/mangostan2.JPG"
+              src="/images/Mangostan/mangostan.JPG"
               alt="Mangostán cultivado en Hacienda Guadalupe"
               fill
               style={{ objectFit: 'cover', objectPosition: 'center' }}

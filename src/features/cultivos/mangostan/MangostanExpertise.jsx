@@ -32,7 +32,7 @@ export default function MangostanExpertise() {
         <div className="order-2 md:order-2">
           <div className="w-full h-56 sm:h-72 md:h-full relative overflow-hidden">
             <Image
-              src="/images/mangostan3.JPG"
+              src="/images/Mangostan/mangostan.JPG"
               alt="Asesoría especializada en mangostán con el Ing. Víctor Hugo Diaz Fuentes"
               fill
               style={{ objectFit: 'cover', objectPosition: 'center' }}

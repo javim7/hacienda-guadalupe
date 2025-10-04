@@ -35,7 +35,7 @@ export default function GyrLechero() {
           <div className="w-full max-w-4xl mx-auto">
             <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg">
               <video
-                src="/videos/gyr.MP4"
+                src="/videos/ganado.mp4"
                 controls
                 className="w-full h-full object-cover"
                 title="Ganado Gyr Lechero - Hacienda Guadalupe"

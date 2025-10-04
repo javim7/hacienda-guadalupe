@@ -9,7 +9,7 @@ export default function About({
 Our herd of 38 jersey cows is raised on pasture, with as much of their food as possible grown on the farm. They aren’t given vaccinations or growth hormones and on the rare occasion when we need to give a cow antibiotics, their milk is not shared with our customers. Our milk is tested weekly and our equipment is sanitized four times each day, giving you confidence in the safety of our raw milk.`,
   ctaText = 'Sobre Nosotros',
   ctaHref = '/about',
-  imageSrc = '/images/feeding.jpg',
+  imageSrc = '/images/Otras/historia1.jpg',
   imageAlt = 'Persona alimentando un ternero'
 }) {
   return (
@@ -55,7 +55,7 @@ Our herd of 38 jersey cows is raised on pasture, with as much of their food as p
               src={imageSrc}
               alt={imageAlt}
               fill
-              style={{ objectFit: 'cover', objectPosition: 'center' }}
+              style={{ objectFit: 'cover', objectPosition: 'center 40%' }}
               priority
             />
           </div>

@@ -23,7 +23,7 @@ export default function Cultivos() {
           "Proceso de producción certificado",
           "Compromiso con el medio ambiente"
         ]}
-        imageSrc="/images/hule.JPG"
+        imageSrc="/images/Hule/huleMainLarge.jpeg"
         imageAlt="Cultivo de hule en Hacienda Guadalupe"
         linkHref="/cultivos/hule"
         reverse={false}
@@ -39,7 +39,7 @@ export default function Cultivos() {
           "Tradición cafetalera guatemalteca",
           "Granos seleccionados cuidadosamente"
         ]}
-        imageSrc="/images/cafe.JPG"
+        imageSrc="/images/Cafe/cafe.JPG"
         imageAlt="Cultivo de café en Hacienda Guadalupe"
         linkHref="/cultivos/cafe"
         reverse={true}
@@ -56,7 +56,7 @@ export default function Cultivos() {
           "Técnicas tradicionales e innovadoras",
           "Cultivo en crecimiento sostenido"
         ]}
-        imageSrc="/images/mangostan.JPG"
+        imageSrc="/images/Mangostan/mangostan.JPG"
         imageAlt="Cultivo de mangostán en Hacienda Guadalupe"
         linkHref="/cultivos/mangostan"
         reverse={false}

@@ -41,7 +41,7 @@ export default function HuleVideo() {
           <div className="w-full max-w-4xl mx-auto">
             <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg">
               <video
-                src="/videos/cafe.MP4"
+                src="/videos/huleFly2.mp4"
                 controls
                 className="w-full h-full object-cover"
                 title="Proceso de extracción de hule - Hacienda Guadalupe"

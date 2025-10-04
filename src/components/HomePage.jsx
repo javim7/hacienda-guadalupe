@@ -20,7 +20,7 @@ export default function HomePage() {
       text={`Hacienda Guadalupe, fundada en 1958 por Roberto Mombiela de León, continúa una tradición agrícola y ganadera familiar con más de 150 años en Guatemala. Actualmente, bajo el cuidado de la tercera generación, la hacienda mantiene viva esa herencia combinándola con una visión de innovación y sostenibilidad. Con orgullo y responsabilidad, trabaja por conservar la fertilidad del suelo y proteger la flora y fauna del entorno, reafirmando su compromiso con el desarrollo sostenible para las futuras generaciones.`}
       ctaText="Sobre Nuestra Hacienda"
       ctaHref="/about"
-      imageSrc="/images/hule.JPG"
+      imageSrc="/images/Otras/historia1.jpg"
       imageAlt="Persona alimentando una ternera"
     />
 
@@ -36,7 +36,7 @@ export default function HomePage() {
       text={`Miguel Roberto Mombiela Bruni lleva más de 30 años trabajando con ganado Gyr lechero, dedicándose especialmente a la genética. Actualmente, implementamos el pastoreo racional Voisin (PRV), un sistema que optimiza el uso del pasto, mejora la salud del suelo y del ganado, y aumenta la productividad de manera sostenible. Además, estamos incorporando la raza Boran, reconocida por su adaptación a climas cálidos, ciclo de parto eficiente y menor requerimiento de alimento.`}
       ctaText="Sobre Nuestro Ganado"
       ctaHref="/cattle"
-      imageSrc="/images/vaca.JPG"
+      imageSrc="/images/Ganado/vacas.JPG"
       imageAlt="Ganado en Hacienda Guadalupe"
     />
 

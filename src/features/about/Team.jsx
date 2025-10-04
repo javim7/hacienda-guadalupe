@@ -34,7 +34,7 @@ export default function Team() {
           <div className="w-full max-w-4xl mx-auto">
             <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/images/team.JPG"
+                src="/images/Otras/team.JPG"
                 alt="Equipo de Hacienda Guadalupe"
                 fill
                 style={{ objectFit: 'cover', objectPosition: 'center' }}

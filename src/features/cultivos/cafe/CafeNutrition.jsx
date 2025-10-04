@@ -9,7 +9,7 @@ export default function CafeNutrition() {
         <div className="order-2 md:order-1">
           <div className="w-full h-56 sm:h-72 md:h-full relative overflow-hidden">
             <Image
-              src="/images/cafe3.jpg"
+              src="/images/Cafe/cafe3.jpg"
               alt="Sistema de nutrición intensiva del café en Hacienda Guadalupe"
               fill
               style={{ objectFit: 'cover', objectPosition: 'center' }}

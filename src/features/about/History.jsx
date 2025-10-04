@@ -37,10 +37,10 @@ export default function History() {
         <div className="order-2 md:order-2">
           <div className="w-full h-56 sm:h-72 md:h-full relative overflow-hidden">
             <Image
-              src="/images/jefes.JPG"
+              src="/images/Otras/jefes.JPG"
               alt="Tradición familiar en Hacienda Guadalupe"
               fill
-              style={{ objectFit: 'cover', objectPosition: 'top' }}
+              style={{ objectFit: 'cover', objectPosition: 'center 25%' }}
               priority
             />
           </div>

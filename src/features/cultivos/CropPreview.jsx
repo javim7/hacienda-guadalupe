@@ -73,7 +73,7 @@ export default function CropPreview({
               src={imageSrc}
               alt={imageAlt}
               fill
-              style={{ objectFit: 'cover', objectPosition: 'center' }}
+              style={{ objectFit: 'cover', objectPosition: 'center 70%' }}
               priority
             />
           </div>

@@ -38,7 +38,7 @@ export default function HuleIntroduction() {
         <div className="order-2 md:order-2">
           <div className="w-full h-56 sm:h-72 md:h-full relative overflow-hidden">
             <Image
-              src="/images/hule2.JPG"
+              src="/images/Hule/hule2Large.jpeg"
               alt="Proceso de cultivo de hule en Hacienda Guadalupe"
               fill
               style={{ objectFit: 'cover', objectPosition: 'center' }}

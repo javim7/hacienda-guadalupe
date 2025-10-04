@@ -47,11 +47,12 @@ export default function Header() {
             aria-label="Abrir menú"
             className="p-2 rounded hover:bg-gray-100"
           >
-            <svg className="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <svg className={`w-8 h-8 transition-transform duration-300 ease-in-out ${open ? 'rotate-180' : 'rotate-0'}`} viewBox="0 0 24 24" fill="none" stroke="currentColor">
               <path
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
+                className="transition-all duration-300 ease-in-out"
                 d={open ? 'M6 18L18 6M6 6l12 12' : 'M4 6h16M4 12h16M4 18h16'}
               />
             </svg>
@@ -59,24 +60,23 @@ export default function Header() {
         </div>
       </div>
 
-      {open && (
-        // cambiar tablet a md si es necesario regresar
-        <div className="tablet:hidden border-t bg-white/95">
-          <div className="px-4 py-4 flex flex-col gap-2">
-            <Navigation 
-              className="flex flex-col gap-2"
-              linkClassName="py-3 px-3 rounded hover:bg-gray-100 block text-base"
-              onClick={() => setOpen(false)}
-              contactButtonStyle={true}
-              contactClassName="mt-2 block text-center px-5 py-3 rounded-md text-base"
-              contactStyle={{
-                backgroundColor: 'var(--brand-corinto-light)',
-                color: 'var(--brand-contrast)'
-              }}
-            />
-          </div>
+      <div className={`tablet:hidden border-t bg-white/95 transition-all duration-300 ease-in-out overflow-hidden ${
+        open ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+      }`}>
+        <div className="px-4 py-4 flex flex-col gap-2">
+          <Navigation 
+            className="flex flex-col gap-2"
+            linkClassName="py-3 px-3 rounded hover:bg-gray-100 block text-base transition-colors duration-200"
+            onClick={() => setOpen(false)}
+            contactButtonStyle={true}
+            contactClassName="mt-2 block text-center px-5 py-3 rounded-md text-base transition-colors duration-200"
+            contactStyle={{
+              backgroundColor: 'var(--brand-corinto-light)',
+              color: 'var(--brand-contrast)'
+            }}
+          />
         </div>
-      )}
+      </div>
     </header>
   )
 }

@@ -32,7 +32,7 @@ export default function CafeTradition() {
         <div className="order-2 md:order-2">
           <div className="w-full h-56 sm:h-72 md:h-full relative overflow-hidden">
             <Image
-              src="/images/cafe2.jpg"
+              src="/images/Cafe/cafe2.jpg"
               alt="Tradición cafetalera en Hacienda Guadalupe"
               fill
               style={{ objectFit: 'cover', objectPosition: 'center' }}

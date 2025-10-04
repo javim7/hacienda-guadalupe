@@ -1,6 +1,5 @@
 // src/components/ContactPage.jsx
 import Head from 'next/head'
-import Image from 'next/image'
 import SectionHeader from '@/components/SectionHeader'
 import ContactForm from '@/features/contact/ContactForm'
 
@@ -19,12 +18,13 @@ export default function Contact() {
       {/* Decorative Hero Image */}
       <section className="w-full -mb-px">
         <div className="w-full relative h-[25vh] sm:h-[30vh] md:h-[35vh]">
-          <Image
-            src="/images/hero.jpg"
-            alt="Ganado de Hacienda Guadalupe"
-            fill
-            style={{ objectFit: 'cover', objectPosition: 'center', opacity: 0.8 }}
-            priority
+          <video
+            src="/videos/huleraCultivos.mp4"
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="absolute inset-0 w-full h-full object-cover opacity-80"
           />
         </div>
       </section>

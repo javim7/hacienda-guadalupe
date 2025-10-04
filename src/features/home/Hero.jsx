@@ -5,9 +5,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const CAROUSEL_IMAGES = [
-  '/images/vacas.JPG',
-  '/images/hero.jpg',
-  '/images/team.JPG'
+  '/images/Car/vacas.JPG',
+  '/images/Car/hero.jpg',
+  '/images/Car/huleCar.png',
+  '/images/Car/huleCar2.HEIC'
 ]
 
 const TRANSITION_DURATION = 5000 // 5 seconds
