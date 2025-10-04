@@ -36,7 +36,7 @@ export default function ContactForm() {
         from_email: formData.email,
         message: formData.message,
         page_name: 'Hacienda Guadalupe',
-        to_email: 'rjmombiela@gmail.com',
+        to_email: 'jmmombielah@gmail.com',
         to_name: 'Jose Mombiela',
         subject: 'Mensaje de contacto de Hacienda Guadalupe'
       }

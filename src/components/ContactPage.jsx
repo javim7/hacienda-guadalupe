@@ -19,7 +19,7 @@ export default function Contact() {
       <section className="w-full -mb-px">
         <div className="w-full relative h-[25vh] sm:h-[30vh] md:h-[35vh]">
           <video
-            src="/videos/huleraCultivos.mp4"
+            src="/videos/hulera3.mp4"
             autoPlay
             muted
             loop

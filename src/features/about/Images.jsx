@@ -5,7 +5,7 @@ export default function Images() {
   // Image routes list - easily modify by adding/removing routes here
   const imageRoutes = [
     '/images/Hule/hule3.png',
-    '/images/Ganado/vacacopy.JPG',
+    '/images/Ganado/vaca.JPG',
     '/images/Ganado/vaca2.JPG',
     '/images/Hule/hule2.jpeg',
   ]
