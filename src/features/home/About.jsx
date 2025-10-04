@@ -55,7 +55,7 @@ Our herd of 38 jersey cows is raised on pasture, with as much of their food as p
               src={imageSrc}
               alt={imageAlt}
               fill
-              style={{ objectFit: 'cover', objectPosition: 'center 40%' }}
+              style={{ objectFit: 'cover', objectPosition: 'center 30%' }}
               priority
             />
           </div>

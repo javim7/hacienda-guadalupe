@@ -29,7 +29,7 @@ export default function MangostanCultivation() {
           <div className="w-full max-w-4xl mx-auto">
             <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg">
               <video
-                src="/videos/cafe.MP4"
+                src="/videos/mangostan2.mp4"
                 controls
                 className="w-full h-full object-cover"
                 title="Cultivo de mangostán en Hacienda Guadalupe"

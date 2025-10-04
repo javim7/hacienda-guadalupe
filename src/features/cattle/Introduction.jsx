@@ -42,7 +42,7 @@ export default function Introduction() {
         <div className="order-2 md:order-2">
           <div className="w-full h-56 sm:h-72 md:h-full relative overflow-hidden">
             <Image
-              src="/images/Ganado/vacaMain.JPG"
+              src="/images/Ganado/vacaMainLarge.jpeg"
               alt="Ganado Gyr lechero en Hacienda Guadalupe"
               fill
               style={{ objectFit: 'cover', objectPosition: 'center 55%' }}

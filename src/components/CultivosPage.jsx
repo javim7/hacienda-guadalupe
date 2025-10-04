@@ -56,7 +56,7 @@ export default function Cultivos() {
           "Técnicas tradicionales e innovadoras",
           "Cultivo en crecimiento sostenido"
         ]}
-        imageSrc="/images/Mangostan/mangostan.JPG"
+        imageSrc="/images/Mangostan/mangostanMainLarge.jpeg"
         imageAlt="Cultivo de mangostán en Hacienda Guadalupe"
         linkHref="/cultivos/mangostan"
         reverse={false}

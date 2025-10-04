@@ -45,7 +45,7 @@ export default function CafeToday() {
           <div className="w-full max-w-4xl mx-auto">
             <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg">
               <video
-                src="/videos/cafe.mp4"
+                src="/videos/cafe2.mp4"
                 controls
                 className="w-full h-full object-cover"
                 title="Plantación de café en Hacienda Guadalupe"

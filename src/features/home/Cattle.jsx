@@ -7,7 +7,7 @@ export default function Cattle({
   text = `Miguel Roberto Mombiela Bruni lleva más de 30 años trabajando con ganado Gyr lechero, dedicándose especialmente a la genética. Actualmente, implementamos el pastoreo racional Voisin (PRV), un sistema que optimiza el uso del pasto, mejora la salud del suelo y del ganado, y aumenta la productividad de manera sostenible. Además, estamos incorporando la raza Boran, reconocida por su adaptación a climas cálidos, ciclo de parto eficiente y menor requerimiento de alimento.`,
   ctaText = 'Sobre Nuestro Ganado',
   ctaHref = '/cattle',
-  imageSrc = '/images/Ganado/vacaMain.JPG',
+  imageSrc = '/images/Ganado/vacaMain.jpeg',
   imageAlt = 'Ganado en Hacienda Guadalupe'
 }) {
   return (
