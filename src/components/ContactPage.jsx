@@ -23,7 +23,7 @@ export default function Contact() {
             src="/images/Otras/huleras.jpg"
             alt="Ganado de Hacienda Guadalupe"
             fill
-            style={{ objectFit: 'cover', objectPosition: 'center 60%', opacity: 0.8 }}
+            style={{ objectFit: 'cover', objectPosition: 'center 60%' }}
             priority
           />
         </div>

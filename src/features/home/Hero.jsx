@@ -7,8 +7,8 @@ import Link from 'next/link'
 const CAROUSEL_IMAGES = [
   '/images/Car/vacas.JPG',
   '/images/Car/hero.jpg',
-  '/images/Car/huleCar.png',
-  '/images/Car/huleCar2.HEIC'
+  '/images/Car/vaca4.JPG',
+  '/images/Car/vacas2.JPG'
 ]
 
 const TRANSITION_DURATION = 5000 // 5 seconds
@@ -59,7 +59,10 @@ export default function Hero({
               src={src}
               alt={`Hacienda Guadalupe - Imagen ${index + 1}`}
               fill
-              style={{ objectFit: 'cover', objectPosition: 'center' }}
+              style={{ 
+                objectFit: 'cover', 
+                objectPosition: src.includes('vaca4.JPG') ? 'center 20%' : 'center' // Apply center 30% to vaca4.JPG
+              }}
               priority={index === 0}
             />
           </div>
