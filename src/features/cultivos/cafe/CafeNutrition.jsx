@@ -7,13 +7,15 @@ export default function CafeNutrition() {
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-0 md:min-h-[78vh]">
         {/* LEFT: Image */}
         <div className="order-2 md:order-1">
-          <div className="w-full h-56 sm:h-72 md:h-full relative overflow-hidden">
+          <div className="w-full h-56 sm:h-72 md:h-full relative overflow-hidden bg-gray-200">
             <Image
               src="/images/Cafe/cafe3.JPG"
               alt="Sistema de nutrición intensiva del café en Hacienda Guadalupe"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               style={{ objectFit: 'cover', objectPosition: 'center' }}
-              priority
+              quality={85}
+              loading="lazy"
             />
           </div>
         </div>

@@ -27,6 +27,7 @@ export default function Cultivos() {
         imageAlt="Cultivo de hule en Hacienda Guadalupe"
         linkHref="/cultivos/hule"
         reverse={false}
+        priority={true}
       />
 
       {/* Café Preview */}

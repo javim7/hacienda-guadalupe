@@ -50,13 +50,15 @@ Our herd of 38 jersey cows is raised on pasture, with as much of their food as p
             - overflow-hidden para que no se salga.
         */}
         <div className="order-2 md:order-2">
-          <div className="w-full h-56 sm:h-72 md:h-full relative overflow-hidden">
+          <div className="w-full h-56 sm:h-72 md:h-full relative overflow-hidden bg-gray-200">
             <Image
               src={imageSrc}
               alt={imageAlt}
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               style={{ objectFit: 'cover', objectPosition: 'center 30%' }}
-              priority
+              quality={85}
+              loading="lazy"
             />
           </div>
         </div>

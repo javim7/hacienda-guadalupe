@@ -40,13 +40,15 @@ export default function Introduction() {
 
         {/* RIGHT: Image */}
         <div className="order-2 md:order-2">
-          <div className="w-full h-56 sm:h-72 md:h-full relative overflow-hidden">
+          <div className="w-full h-56 sm:h-72 md:h-full relative overflow-hidden bg-gray-200">
             <Image
               src="/images/Ganado/vacaMainLarge.jpeg"
               alt="Ganado Gyr lechero en Hacienda Guadalupe"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               style={{ objectFit: 'cover', objectPosition: 'center 55%' }}
               priority
+              quality={85}
             />
           </div>
         </div>

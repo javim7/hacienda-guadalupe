@@ -13,7 +13,8 @@ export default function CropPreview({
   reverse = false,
   backgroundColor = 'white',
   textColor = 'gray-900',
-  buttonStyle = 'red'
+  buttonStyle = 'red',
+  priority = false
 }) {
   const sectionStyle = backgroundColor === 'red' ? { backgroundColor: 'var(--brand-corinto-light)' } : {}
   const titleColor = backgroundColor === 'red' ? 'text-white' : `text-${textColor}`
@@ -68,13 +69,16 @@ export default function CropPreview({
 
         {/* Image */}
         <div className={`order-2 ${reverse ? 'md:order-1' : 'md:order-2'}`}>
-          <div className="w-full h-56 sm:h-72 md:h-full relative overflow-hidden">
+          <div className="w-full h-56 sm:h-72 md:h-full relative overflow-hidden bg-gray-200">
             <Image
               src={imageSrc}
               alt={imageAlt}
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               style={{ objectFit: 'cover', objectPosition: 'center 70%' }}
-              priority
+              quality={85}
+              priority={priority}
+              loading={priority ? undefined : 'lazy'}
             />
           </div>
         </div>

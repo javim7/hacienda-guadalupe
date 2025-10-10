@@ -5,10 +5,12 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const CAROUSEL_IMAGES = [
-  '/images/Car/vacas.JPG',
-  '/images/Car/hero.jpg',
-  '/images/Car/vaca4.JPG',
-  '/images/Car/vacas2.JPG'
+  '/images/Car/vacas2.jpeg',
+  '/images/Car/hulera1.jpeg',
+  '/images/Car/vacas.jpeg',
+  '/images/Car/huleraAbajo.jpeg',
+  '/images/Car/vaca4.jpeg',
+  '/images/Car/hulera2.jpeg'
 ]
 
 const TRANSITION_DURATION = 5000 // 5 seconds
@@ -45,7 +47,7 @@ export default function Hero({
   return (
     <section className="w-full">
       {/* IMAGE CAROUSEL: full-bleed + eliminar línea blanca con -mb-px */}
-      <div className="w-full relative h-[38vh] sm:h-[44vh] md:h-[50vh] lg:h-[54vh] -mb-px overflow-hidden group">
+      <div className="w-full relative h-[38vh] sm:h-[44vh] md:h-[50vh] lg:h-[54vh] -mb-px overflow-hidden group bg-gray-200">
         {CAROUSEL_IMAGES.map((src, index) => (
           <div
             key={src}
@@ -59,11 +61,14 @@ export default function Hero({
               src={src}
               alt={`Hacienda Guadalupe - Imagen ${index + 1}`}
               fill
+              sizes="100vw"
               style={{ 
                 objectFit: 'cover', 
                 objectPosition: src.includes('vaca4.JPG') ? 'center 20%' : 'center' // Apply center 30% to vaca4.JPG
               }}
+              quality={85}
               priority={index === 0}
+              loading={index === 0 ? undefined : 'lazy'}
             />
           </div>
         ))}

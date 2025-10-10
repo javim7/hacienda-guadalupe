@@ -27,6 +27,7 @@ export default function Projects() {
         imageAlt="Colmenas y producción de miel en Hacienda Guadalupe"
         linkHref="/proyectos/miel"
         reverse={false}
+        priority={true}
       />
 
       {/* Pitahaya Preview */}
