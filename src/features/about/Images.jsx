@@ -32,13 +32,16 @@ export default function Images() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
             {imageRoutes.map((imageSrc, index) => (
-              <div key={index} className="relative aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
+              <div key={index} className="relative aspect-[4/3] overflow-hidden rounded-lg shadow-lg bg-gray-200">
                 <Image
                   src={imageSrc}
                   alt={`Imagen ${index + 1} de Hacienda Guadalupe`}
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 700px"
                   style={{ objectFit: 'cover', objectPosition: 'center' }}
                   className="transition-transform duration-300 hover:scale-105"
+                  quality={85}
+                  loading="lazy"
                 />
               </div>
             ))}

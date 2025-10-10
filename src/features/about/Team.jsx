@@ -32,13 +32,16 @@ export default function Team() {
 
           {/* Team Image */}
           <div className="w-full max-w-4xl mx-auto">
-            <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
+            <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-lg bg-gray-200">
               <Image
                 src="/images/Otras/team.JPG"
                 alt="Equipo de Hacienda Guadalupe"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 90vw, 1000px"
                 style={{ objectFit: 'cover', objectPosition: 'center' }}
                 className="transition-transform duration-300 hover:scale-105"
+                quality={85}
+                loading="lazy"
               />
             </div>
             <p className="text-sm text-gray-600 mt-4 italic">
