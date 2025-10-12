@@ -20,9 +20,7 @@ export default function CafeTradition() {
               </p>
               
               <p className="mb-4">
-                Sin embargo, en Hacienda Guadalupe hemos decidido dar un paso adelante: 
-                dejar atrás los métodos tradicionales y apostar por nuevas técnicas más 
-                intensivas y eficientes.
+               Sin embargo, en Hacienda Guadalupe, por sus condiciones climáticas y altura sobre el nivel del mar, hemos decidido cultivar café robusta, variedad criollo y tropical.
               </p>
             </div>
           </div>

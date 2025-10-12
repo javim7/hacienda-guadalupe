@@ -30,7 +30,7 @@ export default function HuleBenefits() {
             <div className="text-base md:text-lg text-white leading-relaxed max-w-[620px]">
               <p className="mb-4">
                 En Hacienda Guadalupe trabajamos con variedades de hule que hemos identificado 
-                como las mejor adaptadas a nuestro clima y suelo arcilloso rojo.
+                como las mejor adaptadas a nuestro clima y suelo arcilloso rojo. Siendo estas RRIM 600, PB 260 y PB 235.
               </p>
               
               <p className="mb-4">
@@ -38,9 +38,9 @@ export default function HuleBenefits() {
               </p>
 
               <ul className="list-disc list-inside space-y-2 mb-4 text-white">
-                <li>Seleccionamos semillas para patrón con buen potencial.</li>
-                <li>Obtenemos yemas de árboles madre altamente productivos.</li>
-                <li>Realizamos injertos, garantizando árboles con la mejor genética.</li>
+                <li>Seleccionamos semillas resistentes a hongos como patrón.</li>
+                <li>Obtenemos yemas de nuestros árboles más productivos y resistentes a enfermedades para establecer y mantener nuestro jardín clonal.</li>
+                <li>Realizamos injertos para desarrollar árboles con mayor productividad.</li>
               </ul>
               
               <p className="mb-4">

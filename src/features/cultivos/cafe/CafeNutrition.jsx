@@ -30,7 +30,7 @@ export default function CafeNutrition() {
             <div className="text-base md:text-lg text-gray-800 leading-relaxed max-w-[620px]">
               <p className="mb-4">
                 El sistema de riego no solo asegura agua en verano, también nos permite 
-                fertilizar de manera estratégica:
+                fertilizar de manera estratégica, llenando los requerimientos nutricionales del cultivo.
               </p>
               
               <div className="mb-4">
@@ -38,24 +38,18 @@ export default function CafeNutrition() {
                   En verano:
                 </h3>
                 <p className="mb-4">
-                  aplicamos fertilización semanal en microdosis, lo que mantiene el crecimiento activo.
+                  aplicamos fertiriego semanal en pequeñas dosis, lo que mantiene el crecimiento activo.
                 </p>
               </div>
 
               <div className="mb-4">
                 <h3 className="font-semibold text-lg text-gray-900 mb-2">
-                  Además:
+                  En invierno:
                 </h3>
                 <p className="mb-4">
-                  una vez al mes aplicamos fertilización boleada, asegurando que la planta 
-                  tenga suficiente alimento durante todo el año.
+                  aplicamos el fertilizante de forma manual al voleo una vez al mes. 
                 </p>
               </div>
-              
-              <p className="mb-4">
-                De esta forma, nuestro café nunca deja de recibir nutrientes, lo que garantiza 
-                una producción constante y de alta calidad.
-              </p>
             </div>
           </div>
         </div>

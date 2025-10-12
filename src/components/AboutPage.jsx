@@ -17,7 +17,6 @@ export default function About() {
       <SectionHeader title="SOBRE NOSOTROS" />
       
       <History />
-      <Pillars />
       <Team />
       <Images />
     </>

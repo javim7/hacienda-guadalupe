@@ -39,7 +39,7 @@ export default function HuleProcess() {
               />
             </div>
             <p className="text-sm text-gray-600 mt-4 italic">
-              Árboles de hule en diferentes etapas de crecimiento
+              Plantación de hule en Hacienda Guadalupe
             </p>
           </div>
         </div>

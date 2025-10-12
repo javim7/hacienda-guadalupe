@@ -14,20 +14,15 @@ export default function History() {
 
             <div className="text-base md:text-lg text-gray-800 leading-relaxed max-w-[620px]">
               <p className="mb-4">
-                Fundada en 1958, Hacienda Guadalupe fue adquirida por el Señor Roberto Mombiela de León, 
-                marcando el inicio de una tradición agrícola y ganadera contando con 150 años de historia.
+              Hacienda Guadalupe fue adquirida en 1958 por el Señor Roberto Mombiela de León, dando así continuidad a una tradición agrícola y ganadera con más de 150 años de historia.
               </p>
               
               <p className="mb-4">
-                Desde entonces, esta herencia ha sido transmitida con orgullo y responsabilidad a través 
-                de generaciones, manteniendo viva la pasión por la agricultura y el compromiso con la 
-                excelencia en cada cosecha.
+                Desde entonces, esta herencia se ha transmitido con orgullo y responsabilidad a través de generaciones, manteniendo viva la pasión por la agricultura y el compromiso con la excelencia en cada cosecha.
               </p>
               
               <p className="mb-4">
-                Hoy, la finca está bajo la dirección de Roberto Mombiela Bruni, quien con el conocimiento 
-                acumulado en la familia ha impulsado una diversificación inteligente y sostenible, 
-                consolidando nuestro legado como líderes en la agricultura guatemalteca.
+              Hoy, la finca está en manos de su tercera generación, que, con el conocimiento acumulado de la familia, ha impulsado una diversificación inteligente y sostenible, consolidando nuestro legado y reafirmando nuestro compromiso con la agricultura guatemalteca.
               </p>
             </div>
           </div>

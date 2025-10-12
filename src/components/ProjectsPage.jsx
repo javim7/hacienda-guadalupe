@@ -8,7 +8,7 @@ export default function Projects() {
     <>
       <Head>
         <title>Proyectos Extra - Hacienda Guadalupe</title>
-        <meta name="description" content="Descubre nuestros proyectos innovadores: Miel, Pitahaya, Chlorella y Bambú en Hacienda Guadalupe" />
+        <meta name="description" content="Descubre nuestros proyectos innovadores: Miel, Pitahaya y Chlorella en Hacienda Guadalupe" />
       </Head>
 
       <SectionHeader title="PROYECTOS EXTRA" />
@@ -23,9 +23,8 @@ export default function Projects() {
           "Ecosistema más saludable",
           "Biodiversidad preservada"
         ]}
-        imageSrc="/images/Hule/hule.JPG"
+        imageSrc="/images/Otras/miel.jpg"
         imageAlt="Colmenas y producción de miel en Hacienda Guadalupe"
-        linkHref="/proyectos/miel"
         reverse={false}
         priority={true}
       />
@@ -40,9 +39,8 @@ export default function Projects() {
           "Cultivo innovador y sostenible",
           "Adaptación perfecta al clima"
         ]}
-        imageSrc="/images/Cafe/cafe.JPG"
+        imageSrc="/images/Otras/pitahaya.jpeg"
         imageAlt="Cultivo de pitahaya en Hacienda Guadalupe"
-        linkHref="/proyectos/pitahaya"
         reverse={true}
         backgroundColor="red"
       />
@@ -57,27 +55,9 @@ export default function Projects() {
           "Agricultura sostenible de vanguardia",
           "Mejora la salud de cultivos"
         ]}
-        imageSrc="/images/Mangostan/mangostan.JPG"
+        imageSrc="/images/Otras/chlorella.jpg"
         imageAlt="Cultivo de microalgas Chlorella en Hacienda Guadalupe"
-        linkHref="/proyectos/chlorella"
         reverse={false}
-      />
-
-      {/* Bambú Preview */}
-      <ProjectPreview
-        title="Bambú"
-        description="El bambú es un cultivo versátil y sostenible que forma parte de nuestra visión de agricultura regenerativa. Este recurso renovable de rápido crecimiento no solo contribuye a la captura de carbono, sino que también ofrece múltiples aplicaciones industriales y ecológicas, representando el futuro de la agricultura sostenible."
-        benefits={[
-          "Agricultura regenerativa",
-          "Captura de carbono natural",
-          "Múltiples aplicaciones industriales",
-          "Recurso renovable de rápido crecimiento"
-        ]}
-        imageSrc="/images/Mangostan/mangostan.JPG"
-        imageAlt="Cultivo de bambú en Hacienda Guadalupe"
-        linkHref="/proyectos/bamboo"
-        reverse={true}
-        backgroundColor="red"
       />
     </>
   )

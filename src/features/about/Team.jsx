@@ -24,6 +24,12 @@ export default function Team() {
             </p>
             
             <p className="mb-6">
+              Reconocemos a nuestros empleados como parte fundamental de Hacienda Guadalupe. 
+              Por ello, estamos comprometidos con su bienestar integral, fomentando un entorno de trabajo seguro, 
+              digno y en constante crecimiento.
+            </p>
+            
+            <p className="mb-6">
               Trabajamos juntos para mantener viva la tradición familiar mientras exploramos 
               nuevas fronteras en la agricultura sostenible, asegurando que Hacienda Guadalupe 
               continúe siendo un referente de calidad y responsabilidad ambiental en Guatemala.
@@ -45,7 +51,7 @@ export default function Team() {
               />
             </div>
             <p className="text-sm text-gray-600 mt-4 italic">
-              Familia Mombiela en una feria ganadera
+              Familia Mombiela, con la gran campeona de la raza Gyr, Galilea de Guadalupe, en Expo Reu 2023. 
             </p>
           </div>
         </div>

@@ -14,21 +14,21 @@ export default function HuleIntroduction() {
 
             <div className="text-base md:text-lg text-gray-800 leading-relaxed max-w-[620px]">
               <p className="mb-4">
-                En Hacienda Guadalupe, el cultivo de hule es parte esencial de nuestra finca. 
-                Nos beneficia especialmente el suelo arcilloso rojo, que es ideal para este 
-                cultivo y permite que nuestros árboles crezcan fuertes y productivos.
+                En Hacienda Guadalupe, el hule es nuestro cultivo principal. Nos beneficia especialmente el suelo arcilloso rojo, ideal para este cultivo, que permite que nuestros árboles crezcan fuertes y productivos.
               </p>
               
               <p className="mb-4">
-                Contamos con picadores especializados exclusivamente en hule, quienes realizan 
-                cortes técnicos y precisos para obtener la mayor producción sin lastimar los 
-                árboles. Además, cada mes llevamos a cabo una evaluación de pica de primer nivel, 
-                en la que medimos la eficiencia y calidad del trabajo de nuestros picadores.
+                Los clones con los que trabajamos son en su mayoría RRIM 600, PB 260 y PB 235, siendo el RRIM 600 el que mejor se ha adaptado a nuestro clima y condiciones.
               </p>
               
               <p className="mb-4">
-                Esto asegura una recolección responsable, sostenible y con la mejor productividad 
-                posible.
+                Contamos con picadores especializados exclusivamente en hule, quienes realizan cortes técnicos y precisos para obtener la mayor producción sin lastimar los árboles.
+              </p>
+              
+              <p className="mb-4">
+                En cuanto a prácticas culturales, para el control de hongos del panel utilizamos productos biológicos como <i>Bacillus subtilis</i> y <i>Bacillus pumilus</i>, asegurando un manejo sostenible y respetuoso con el entorno.
+                <br />
+                El control de las malesas lo hacemos de formal manual, ayudando a conservar la vida en el suelo.
               </p>
             </div>
           </div>

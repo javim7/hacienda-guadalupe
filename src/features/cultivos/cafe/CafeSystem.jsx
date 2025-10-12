@@ -14,20 +14,17 @@ export default function CafeSystem() {
 
             <div className="text-base md:text-lg text-white leading-relaxed max-w-[620px]">
               <p className="mb-4">
-                Inspirados en las técnicas modernas de países líderes como Brasil y Nicaragua, 
+                Inspirados en las técnicas modernas de países líderes como Brasil, 
                 hemos implementado un sistema de siembra altamente intensivo:
               </p>
               
               <ul className="list-disc list-inside space-y-2 mb-4 text-white">
                 <li><strong>Distancia entre plantas:</strong> 0.65 metros.</li>
                 <li><strong>Distancia entre calles:</strong> 3 metros.</li>
-                <li><strong>Manejo de cada planta:</strong> se le dejan únicamente dos ejes, para optimizar su productividad y facilitar el manejo.</li>
+                <li><strong>Sistema de riego por goteo</strong></li>
+                <li><strong>Ejes por planta:</strong> se le dejan únicamente dos ejes por planta, para obtener entre 10,000 y 12,000 ejes por hectárea.</li>
               </ul>
-              
-              <p className="mb-4">
-                Este modelo nos permite aprovechar al máximo cada metro cuadrado, con plantas 
-                sanas, controladas y en plena producción.
-              </p>
+          
             </div>
           </div>
         </div>

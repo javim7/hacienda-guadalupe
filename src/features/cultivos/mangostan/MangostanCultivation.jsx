@@ -14,17 +14,12 @@ export default function MangostanCultivation() {
 
           <div className="text-base md:text-lg text-gray-800 leading-relaxed mb-8">
             <p className="mb-6">
-              La plantación tiene ya 4 años, y seguimos estableciendo nuevas áreas. Estimamos 
-              que comenzaremos a cosechar frutos hacia el quinto año.
+              Nuestra plantación cuenta con 3 años, y seguimos estableciendo nuevas áreas. Esperamos el inicio 
+              de producción de los primeros frutos hacia el quinto año.
             </p>
             
             <p className="mb-6">
-              En verano, aplicamos riego día por medio con microaspersión, ya que el árbol 
-              disfruta de abundante agua.
-            </p>
-            
-            <p className="mb-6">
-              Gracias a nuestra experiencia, proyectamos obtener fruta de primera calidad.
+              Contamos con riego por microaspersión, del cual proveemos agua al cultivo según sus requerimientos.
             </p>
           </div>
 
@@ -78,7 +73,7 @@ export default function MangostanCultivation() {
               )}
             </div>
             <p className="text-sm text-gray-600 mt-4 italic">
-              Video: Proceso de cultivo y cuidado del mangostán en Hacienda Guadalupe
+              Video: Plantación de mangostán en Hacienda Guadalupe
             </p>
           </div>
         </div>

@@ -29,7 +29,7 @@ export default function GyrLechero() {
             
             <p className="mb-8">
               A través de años de experiencia y participación en ferias ganaderas, hemos 
-              desarrollado una línea genética reconocida por su calidad y productividad, 
+              desarrollado una genética reconocida por su calidad y productividad, 
               contribuyendo al desarrollo de la ganadería lechera en Guatemala.
             </p>
           </div>
@@ -84,7 +84,7 @@ export default function GyrLechero() {
               )}
             </div>
             <p className="text-sm text-gray-600 mt-4 italic">
-              Video: Nuestro ganado Gyr lechero en acción
+              Video: Ganado en pastoreo
             </p>
           </div>
         </div>

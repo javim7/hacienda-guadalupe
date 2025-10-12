@@ -51,19 +51,21 @@ export default function ProjectPreview({
               )}
             </div>
 
-            <div className="mt-6 md:mt-8">
-              <Link
-                href={linkHref}
-                className={`inline-block px-6 py-3 rounded-md shadow-sm transition ${
-                  backgroundColor === 'red' 
-                    ? 'bg-white text-red-600 hover:bg-gray-100' 
-                    : ''
-                }`}
-                style={backgroundColor !== 'red' ? { backgroundColor: 'var(--brand-corinto-light)', color: 'var(--brand-contrast)' } : {}}
-              >
-                {buttonText}
-              </Link>
-            </div>
+            {linkHref && (
+              <div className="mt-6 md:mt-8">
+                <Link
+                  href={linkHref}
+                  className={`inline-block px-6 py-3 rounded-md shadow-sm transition ${
+                    backgroundColor === 'red' 
+                      ? 'bg-white text-red-600 hover:bg-gray-100' 
+                      : ''
+                  }`}
+                  style={backgroundColor !== 'red' ? { backgroundColor: 'var(--brand-corinto-light)', color: 'var(--brand-contrast)' } : {}}
+                >
+                  {buttonText}
+                </Link>
+              </div>
+            )}
           </div>
         </div>
 

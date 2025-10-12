@@ -24,7 +24,7 @@ export default function MangostanBiology() {
         <div className="order-1 md:order-2 flex items-start md:items-center">
           <div className="w-full px-6 py-8 md:px-20 md:py-12">
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl mb-6 text-gray-900">
-              Manejo biológico y nutrición natural
+              Manejo nutricional y biológico
             </h2>
 
             <div className="text-base md:text-lg text-gray-800 leading-relaxed max-w-[620px]">
@@ -48,13 +48,10 @@ export default function MangostanBiology() {
                 <ul className="list-disc list-inside space-y-2 mb-4 text-gray-800">
                   <li><strong>Aplicación foliar:</strong> actuando como un bioestimulante rico en aminoácidos naturales.</li>
                   <li><strong>Aplicación al suelo:</strong> que aporta nitrógeno y proteínas que nutren directamente la planta.</li>
+                  <li><strong>Fertilización:</strong> que proporciona a nuestro cultivo los nutrientes necesarios para su crecimiento.</li>
                 </ul>
               </div>
               
-              <p className="mb-4">
-                Este enfoque nos permite mantener un cultivo sano, fuerte y sostenible, 
-                respetando tanto la planta como el ecosistema.
-              </p>
             </div>
           </div>
         </div>

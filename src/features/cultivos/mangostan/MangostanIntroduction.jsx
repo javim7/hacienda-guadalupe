@@ -22,9 +22,6 @@ export default function MangostanIntroduction() {
               </p>
               
               <div className="mb-4">
-                <h3 className="font-semibold text-lg text-gray-900 mb-3">
-                  Beneficios de la cáscara
-                </h3>
                 <p className="mb-4">
                   La cáscara del mangostán también es valiosa: contiene flavonoides, taninos, 
                   antocianinas y ácidos fenólicos, compuestos con efectos antioxidantes, 

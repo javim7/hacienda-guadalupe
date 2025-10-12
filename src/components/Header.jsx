@@ -15,7 +15,7 @@ export default function Header() {
             <div className="relative w-14 h-14">
               {/* Next 13: use `fill` + style for objectFit */}
               <Image
-                src="/images/Otras/logo.jpeg"
+                src="/images/Otras/favicon.ico"
                 alt="Logo"
                 fill
                 style={{ objectFit: 'contain' }}

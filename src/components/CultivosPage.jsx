@@ -20,7 +20,6 @@ export default function Cultivos() {
         benefits={[
           "Cultivo sostenible y responsable",
           "Alta calidad y pureza natural",
-          "Proceso de producción certificado",
           "Compromiso con el medio ambiente"
         ]}
         imageSrc="/images/Hule/huleMainLarge.jpeg"
@@ -33,7 +32,7 @@ export default function Cultivos() {
       {/* Café Preview */}
       <CropPreview
         title="Café"
-        description="Nuestro café robusta se cultiva bajo un modelo de ciclo altamente intensivo que busca eficacia y calidad. Cada grano refleja nuestro compromiso con la excelencia y la tradición cafetalera guatemalteca."
+        description="Nuestro café robusta se cultiva bajo un modelo intensivo que busca eficiencia y calidad. Cada grano refleja nuestro compromiso con la excelencia y la tradición cafetalera guatemalteca."
         benefits={[
           "Modelo de cultivo intensivo",
           "Alta eficiencia y calidad",
@@ -50,12 +49,12 @@ export default function Cultivos() {
       {/* Mangostán Preview */}
       <CropPreview
         title="Mangostán"
-        description="Con una tradición de cultivo de 4 años y en constante expansión, nuestro mangostán representa la excelencia en frutas tropicales. Cultivamos esta fruta exótica con técnicas tradicionales y modernas innovaciones."
+        description="En Hacienda Guadalupe, cultivamos el mangostán con pasión y técnica, El mangostán representa la excelencia en frutas tropicales."
         benefits={[
-          "Tradición de 4 años en constante expansión",
           "Fruta tropical de alta calidad",
-          "Técnicas tradicionales e innovadoras",
-          "Cultivo en crecimiento sostenido"
+          "Cascara rica en antioxidantes",
+          "Propiedades antiinflamatorias naturales",
+          "Bajo contenido calórico y rico en fibra"
         ]}
         imageSrc="/images/Mangostan/mangostanMainLarge.jpeg"
         imageAlt="Cultivo de mangostán en Hacienda Guadalupe"

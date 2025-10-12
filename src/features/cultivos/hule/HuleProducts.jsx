@@ -14,12 +14,12 @@ export default function HuleVideo() {
 
           <div className="text-base md:text-lg text-gray-800 leading-relaxed mb-8">
             <p className="mb-6">
-              En nuestra finca recolectamos tanto látex de primera como chipa de primera:
+              En nuestra hacienda recolectamos látex y chipa de primera:
             </p>
             
             <div className="mb-6">
               <h3 className="font-semibold text-lg text-gray-900 mb-3">
-                Látex de primera:
+                Látex:
               </h3>
               <p className="mb-4">
                 es el líquido lechoso que fluye del árbol tras la incisión. Es la materia prima 
@@ -33,9 +33,7 @@ export default function HuleVideo() {
                 Chipa de primera:
               </h3>
               <p className="mb-4">
-                son los coágulos o sólidos del látex que se forman al contacto con el aire o 
-                en los recipientes de recolección. Es altamente valorada para la fabricación 
-                de neumáticos y productos industriales que necesitan mayor resistencia y durabilidad.
+                es la transformación de látex liquido a sólido, obtenida mediante un proceso de coagulación con ácido fórmico.
               </p>
             </div>
           </div>
@@ -90,7 +88,7 @@ export default function HuleVideo() {
               )}
             </div>
             <p className="text-sm text-gray-600 mt-4 italic">
-              Video: Proceso de extracción de látex de hule natural
+              Video: Plantación en producción
             </p>
           </div>
         </div>

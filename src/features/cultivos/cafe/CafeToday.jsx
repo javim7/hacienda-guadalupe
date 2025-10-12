@@ -15,8 +15,8 @@ export default function CafeToday() {
           <div className="text-base md:text-lg text-gray-800 leading-relaxed mb-8">
             <p className="mb-6">
               Actualmente cultivamos café robusta, trabajando con semilla seleccionada con 
-              más de 30 años de desarrollo genético y también con variedades de robusta 
-              tropicales adaptadas a nuestras condiciones.
+              más de 30 años de desarrollo genético proveniente de Finca Santa Augustina y con robusta 
+              tropical.
             </p>
             
             <p className="mb-6">
@@ -38,8 +38,7 @@ export default function CafeToday() {
                 Verano muy seco:
               </h3>
               <p className="mb-4">
-                prácticamente sin lluvias, lo que nos ha llevado a implementar riego diario: 
-                cada planta recibe un litro de agua al día durante una hora de riego.
+                prácticamente sin lluvias, lo que nos ha llevado a implementar un sistema de riego por goteo.
               </p>
             </div>
           </div>
@@ -94,7 +93,7 @@ export default function CafeToday() {
               )}
             </div>
             <p className="text-sm text-gray-600 mt-4 italic">
-              Video: Plantación completa de café robusta en Hacienda Guadalupe
+              Video: Plantación de café robusta en Hacienda Guadalupe
             </p>
           </div>
         </div>

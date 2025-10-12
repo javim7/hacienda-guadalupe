@@ -33,7 +33,7 @@ export default function HomePage() {
     />
     <Cattle
       title="Nuestro Ganado"
-      text={`Miguel Roberto Mombiela Bruni lleva más de 30 años trabajando con ganado Gyr lechero, dedicándose especialmente a la genética. Actualmente, implementamos el pastoreo racional Voisin (PRV), un sistema que optimiza el uso del pasto, mejora la salud del suelo y del ganado, y aumenta la productividad de manera sostenible. Además, estamos incorporando la raza Boran, reconocida por su adaptación a climas cálidos, ciclo de parto eficiente y menor requerimiento de alimento.`}
+      text={`Roberto Mombiela de León inició la cría de la raza Gyr en 1978. A lo largo de estos años ha obtenido numerosos premios en exposiciones y concursos de ordeño. Actualmente trabajamos en una ganadería regenerativa, conservando la vida del suelo y su entorno mediante sistemas de pastoreo intensivo no selectivo y el uso de genética de bajo mantenimiento y sin uso de productos químicos.`}
       ctaText="Sobre Nuestro Ganado"
       ctaHref="/cattle"
       imageSrc="/images/Ganado/vacasLarge.jpeg"
@@ -42,7 +42,7 @@ export default function HomePage() {
 
     <Projects
       title="Proyectos Extra"
-      text={`En Hacienda Guadalupe vamos más allá de los cultivos tradicionales con proyectos innovadores y sostenibles. Producimos miel de alta calidad con nuestras colmenas que también polinizan nuestros cultivos. Cultivamos pitahaya, una fruta exótica de sabor único y propiedades nutricionales excepcionales. Desarrollamos microalgas Chlorella como superalimento y bioinsumo natural. Y cultivamos bambú, un recurso renovable de rápido crecimiento que contribuye a la captura de carbono y agricultura regenerativa.`}
+      text={`En Hacienda Guadalupe vamos más allá de los cultivos tradicionales con proyectos innovadores y sostenibles. Producimos miel de alta calidad con nuestras colmenas que también polinizan nuestros cultivos. Cultivamos pitahaya, una fruta exótica de sabor único y propiedades nutricionales excepcionales. Desarrollamos microalgas Chlorella como superalimento y bioinsumo natural.`}
       ctaText="Sobre Nuestros Proyectos"
       ctaHref="/projects"
     />

@@ -14,25 +14,13 @@ export default function Introduction() {
 
             <div className="text-base md:text-lg text-gray-800 leading-relaxed max-w-[620px]">
               <p className="mb-4">
-                Miguel Roberto Mombiela Bruni lleva más de 30 años trabajando con ganado Gyr lechero, 
-                dedicándose especialmente a la genética. A lo largo de estos años, hemos participado 
-                en múltiples ferias, obteniendo numerosos premios gracias a la calidad de nuestro ganado.
+              El Señor Roberto Mombiela de León inició la crianza de ganado Gyr en 1978, y en la década de los 90, orientó su selección hacia la línea lechera. A lo largo de estos años, hemos participado en múltiples ferias, obteniendo numerosos premios gracias a la selección y al avance genético de nuestro ganado.
               </p>
               
               <p className="mb-4">
-                Actualmente, estamos implementando el pastoreo racional Voisin (PRV), un sistema que 
-                optimiza el uso del pasto, mejora la salud del suelo y del ganado, y aumenta la 
-                productividad de manera sostenible. Este método permite que los animales se alimenten 
-                de pasturas frescas de manera controlada, reduciendo el desgaste del terreno y 
-                favoreciendo la regeneración de los pastos.
-              </p>
-              
-              <p className="mb-4">
-                Además, estamos incorporando la raza Boran, reconocida por adaptarse muy bien a 
-                climas cálidos y pequeños, tener un ciclo de parto más eficiente y requerir menos 
-                alimento para alcanzar su peso máximo. Para esto, hemos traído semen y embriones de 
-                esta raza, y ya contamos con varias terneras Boran, con planes de seguir expandiendo 
-                nuestro rebaño.
+              Actualmente, estamos transformando nuestra ganadería hacia un modelo regenerativo. 
+              En este sistema, utilizamos el pasto de manera eficiente, cuidamos la vida del suelo y su entorno, 
+              y trabajamos buscando un tipo de ganado de bajo mantenimiento, apoyandonos en las razas Boran y Mashona, originarias de África, que se adaptan excelentemente a nuestro clima y condiciones.
               </p>
             </div>
           </div>
