@@ -84,6 +84,13 @@ export default function ContactForm() {
                     >
                       jmmombielah@gmail.com
                     </a>
+                    <br />
+                    <a 
+                      href="mailto:mrmombiela@gmail.com"
+                      className="text-lg text-gray-700 hover:text-gray-900 transition-colors"
+                    >
+                      mrmombiela@gmail.com
+                    </a>
                   </div>
 
                   <div>

@@ -55,8 +55,8 @@ export default function Home() {
               "alternateName": "Hacienda Guadalupe Guatemala",
               "description": "Hacienda Guadalupe, fundada en 1958, combina tradición agrícola y ganadera familiar con innovación sostenible en Guatemala.",
               "url": "https://hacienda-guadalupe.com",
-              "logo": "https://hacienda-guadalupe.com/images/logo.png",
-              "image": "https://hacienda-guadalupe.com/images/hero.jpg",
+              "logo": "https://hacienda-guadalupe.com/images/Otras/logo.jpeg",
+              "image": "https://hacienda-guadalupe.com/images/Car/vacas2.jpeg",
               "foundingDate": "1958",
               "founder": {
                 "@type": "Person",

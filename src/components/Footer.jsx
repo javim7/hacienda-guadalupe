@@ -20,7 +20,7 @@ export default function Footer() {
           {/* Contacto */}
           <div className="mb-3 text-sm">
             <div>
-              <a href="mailto:info@haciendaguadalupe.example" className="footer-link no-underline">info@haciendaguadalupe.example</a>
+              <a href="mailto:jmmombielah@gmail.com" className="footer-link no-underline">jmmombielah@gmail.com</a>
             </div>
             <div>
               <a href="tel:+50230059357" className="footer-link no-underline">+502 3005-9357</a>
