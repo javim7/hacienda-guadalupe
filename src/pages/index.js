@@ -8,8 +8,8 @@ export default function Home() {
       <Head>
         {/* Basic Meta Tags */}
         <title>Hacienda Guadalupe - Tradición e Innovación Agrícola y Ganadera en Guatemala</title>
-        <meta name="description" content="Hacienda Guadalupe, fundada en 1958, combina tradición agrícola y ganadera familiar con innovación sostenible. Cultivamos hule, café y mangostán, y criamos ganado Gyr lechero con pastoreo racional Voisin en Guatemala." />
-        <meta name="keywords" content="hacienda guadalupe, guatemala, agricultura sostenible, ganado gyr, pastoreo voisin, cultivo hule, café robusta, mangostán, agricultura regenerativa" />
+        <meta name="description" content="Proveedor de Mangostán y Hule Natural en Guatemala - Hacienda Guadalupe. Productores directos de Mangostán fresco, Hule natural de alta calidad y Café. Con más de 150 años de tradición agrícola en Guatemala. Buscamos compradores mayoristas e interesados en frutas exóticas y materias primas." />
+        <meta name="keywords" content="hacienda guadalupe, guatemala, agricultura sostenible, ganado gyr, pastoreo de ultra alta densidad, cultivo hule, café robusta, mangostán, agricultura regenerativa, expansión estrategica, frutas tropicales, rubber tree, coffee, mangostan, gyr lechery, voisin, sustainable agriculture, regenerative agriculture, strategic expansion, tropical fruits, rubber tree, coffee, mangostan, gyr lechery, voisin, sustainable agriculture, regenerative agriculture, strategic expansion, tropical fruits" />
         <meta name="author" content="Hacienda Guadalupe" />
         <meta name="robots" content="index, follow" />
         <meta name="language" content="es" />
@@ -21,8 +21,8 @@ export default function Home() {
         {/* Open Graph Meta Tags */}
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Hacienda Guadalupe - Tradición e Innovación Agrícola y Ganadera en Guatemala" />
-        <meta property="og:description" content="Hacienda Guadalupe, fundada en 1958, combina tradición agrícola y ganadera familiar con innovación sostenible. Cultivamos hule, café y mangostán, y criamos ganado Gyr lechero con pastoreo racional Voisin en Guatemala." />
-        <meta property="og:image" content="https://hacienda-guadalupe.com/images/hero.jpg" />
+        <meta property="og:description" content="Proveedor de Mangostán y Hule Natural en Guatemala - Hacienda Guadalupe. Productores directos de Mangostán fresco, Hule natural de alta calidad y Café. Con más de 150 años de tradición agrícola en Guatemala. Buscamos compradores mayoristas e interesados en frutas exóticas y materias primas." />
+        <meta property="og:image" content="https://hacienda-guadalupe.com/images/Otras/logo.jpeg" />
         <meta property="og:image:alt" content="Hacienda Guadalupe - Vista panorámica de la hacienda" />
         <meta property="og:url" content="https://hacienda-guadalupe.com" />
         <meta property="og:site_name" content="Hacienda Guadalupe" />
@@ -31,8 +31,8 @@ export default function Home() {
         {/* Twitter Card Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Hacienda Guadalupe - Tradición e Innovación Agrícola y Ganadera en Guatemala" />
-        <meta name="twitter:description" content="Hacienda Guadalupe, fundada en 1958, combina tradición agrícola y ganadera familiar con innovación sostenible. Cultivamos hule, café y mangostán, y criamos ganado Gyr lechero con pastoreo racional Voisin en Guatemala." />
-        <meta name="twitter:image" content="https://hacienda-guadalupe.com/images/hero.jpg" />
+        <meta name="twitter:description" content="Proveedor de Mangostán y Hule Natural en Guatemala - Hacienda Guadalupe. Productores directos de Mangostán fresco, Hule natural de alta calidad y Café. Con más de 150 años de tradición agrícola en Guatemala. Buscamos compradores mayoristas e interesados en frutas exóticas y materias primas." />
+        <meta name="twitter:image" content="https://hacienda-guadalupe.com/images/Otras/logo.jpeg" />
         <meta name="twitter:image:alt" content="Hacienda Guadalupe - Vista panorámica de la hacienda" />
         
         {/* Additional SEO Meta Tags */}
@@ -53,7 +53,7 @@ export default function Home() {
               "@type": "Organization",
               "name": "Hacienda Guadalupe",
               "alternateName": "Hacienda Guadalupe Guatemala",
-              "description": "Hacienda Guadalupe, fundada en 1958, combina tradición agrícola y ganadera familiar con innovación sostenible en Guatemala.",
+              "description": "Proveedor de Mangostán y Hule Natural en Guatemala - Hacienda Guadalupe. Productores directos de Mangostán fresco, Hule natural de alta calidad y Café. Con más de 150 años de tradición agrícola en Guatemala. Buscamos compradores mayoristas e interesados en frutas exóticas y materias primas.",
               "url": "https://hacienda-guadalupe.com",
               "logo": "https://hacienda-guadalupe.com/images/Otras/logo.jpeg",
               "image": "https://hacienda-guadalupe.com/images/Car/vacas2.jpeg",
@@ -104,7 +104,7 @@ export default function Home() {
                     "itemOffered": {
                       "@type": "Product",
                       "name": "Ganado Gyr Lechero",
-                      "description": "Ganado Gyr lechero con pastoreo racional Voisin"
+                      "description": "Ganado Gyr lechero con pastoreo de ultra alta densidad"
                     }
                   }
                 ]

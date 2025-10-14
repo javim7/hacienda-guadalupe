@@ -1,9 +1,15 @@
 // src/features/cultivos/cafe/CafeToday.jsx
-import { useState } from 'react'
-import Image from 'next/image'
+import { useState, useRef } from 'react'
 
 export default function CafeToday() {
   const [isPlaying, setIsPlaying] = useState(false)
+  const videoRef = useRef(null)
+
+  const handlePlayClick = () => {
+    const el = videoRef.current
+    if (!el) return
+    el.play()
+  }
   return (
     <section className="w-full -mb-px" style={{ backgroundColor: 'var(--muted)' }}>
       <div className="w-full py-16 md:py-20">
@@ -47,54 +53,39 @@ export default function CafeToday() {
           <div className="w-full max-w-4xl mx-auto">
             <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg bg-gray-900">
               <video
+                ref={videoRef}
                 id="cafe-video"
-                src="/videos/cafe2.mp4"
-                controls
-                preload="metadata"
                 className="w-full h-full object-cover"
+                controls={isPlaying}
+                preload="none"                           // ⬅️ don't fetch bytes until user interacts
+                poster="/images/Cafe/cafePoster.jpeg" // ⬅️ native poster shown instantly
                 title="Plantación de café en Hacienda Guadalupe"
                 playsInline
                 onPlay={() => setIsPlaying(true)}
+                onPause={() => setIsPlaying(false)}
               >
+                <source src="/videos/cafe2.mp4" type="video/mp4" />
                 Tu navegador no soporta el elemento de video.
               </video>
-              
-              {/* Optimized Poster Image Overlay */}
+
+              {/* Overlay play button (no extra image request needed) */}
               {!isPlaying && (
-                <div 
-                  className="absolute inset-0 cursor-pointer group"
-                  onClick={() => {
-                    const video = document.getElementById('cafe-video')
-                    video?.play()
-                  }}
+                <button
+                  type="button"
+                  aria-label="Reproducir video"
+                  onClick={handlePlayClick}
+                  className="absolute inset-0 flex items-center justify-center bg-black/20 hover:bg-black/30 transition-colors cursor-pointer"
                 >
-                  <Image
-                    src="/images/Cafe/cafePoster.jpeg"
-                    alt="Vista previa del video de café"
-                    fill
-                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 90vw, 1000px"
-                    style={{ objectFit: 'cover', objectPosition: 'center' }}
-                    quality={85}
-                    loading="lazy"
-                  />
-                  {/* Play Button Overlay */}
-                  <div className="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/30 transition-colors">
-                    <div className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-white/90 group-hover:bg-white flex items-center justify-center shadow-xl transition-all group-hover:scale-110">
-                      <svg 
-                        className="w-8 h-8 md:w-10 md:h-10 ml-1 text-gray-900" 
-                        fill="currentColor" 
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                  </div>
-                </div>
+                  <span className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-white/90 hover:bg-white flex items-center justify-center shadow-xl transition-transform hover:scale-110">
+                    <svg className="w-8 h-8 md:w-10 md:h-10 ml-1 text-gray-900" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M8 5v14l11-7z" />
+                    </svg>
+                  </span>
+                </button>
               )}
             </div>
-            <p className="text-sm text-gray-600 mt-4 italic">
-              Video: Plantación de café robusta en Hacienda Guadalupe
-            </p>
+
+            <p className="text-sm text-gray-600 mt-4 italic">Video: Plantación de café robusta en Hacienda Guadalupe</p>
           </div>
         </div>
       </div>
