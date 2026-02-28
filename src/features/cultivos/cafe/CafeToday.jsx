@@ -57,7 +57,7 @@ export default function CafeToday() {
                 id="cafe-video"
                 className="w-full h-full object-cover"
                 controls={isPlaying}
-                preload="none"                           // ⬅️ don't fetch bytes until user interacts
+                preload="metadata"
                 poster="/images/Cafe/cafePoster.jpeg" // ⬅️ native poster shown instantly
                 title={t('videoTitle')}
                 playsInline
