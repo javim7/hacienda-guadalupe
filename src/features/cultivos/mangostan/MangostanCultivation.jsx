@@ -46,7 +46,7 @@ export default function MangostanCultivation() {
                 onPlay={() => setIsPlaying(true)}
                 onPause={() => setIsPlaying(false)}
               >
-                <source src="/videos/mangostan2.mp4" type="video/mp4" />
+                <source src="https://media.hacienda-guadalupe.com/videos/mangostan2.mp4" type="video/mp4" />
                 {tc('videoNotSupported')}
               </video>
 

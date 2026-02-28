@@ -42,7 +42,7 @@ export default function GyrLechero() {
                 onPlay={() => setIsPlaying(true)}
                 onPause={() => setIsPlaying(false)}
               >
-                <source src="/videos/ganado.mp4" type="video/mp4" />
+                <source src="https://media.hacienda-guadalupe.com/videos/ganado.mp4" type="video/mp4" />
                 {tc('videoNotSupported')}
               </video>
 

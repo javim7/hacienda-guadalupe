@@ -60,7 +60,7 @@ export default function HuleProducts() {
                 onPlay={() => setIsPlaying(true)}
                 onPause={() => setIsPlaying(false)}
               >
-                <source src="/videos/huleFly3.mp4" type="video/mp4" />
+                <source src="https://media.hacienda-guadalupe.com/videos/huleFly3.mp4" type="video/mp4" />
                 {tc('videoNotSupported')}
               </video>
 

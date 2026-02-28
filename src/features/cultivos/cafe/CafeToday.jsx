@@ -64,7 +64,7 @@ export default function CafeToday() {
                 onPlay={() => setIsPlaying(true)}
                 onPause={() => setIsPlaying(false)}
               >
-                <source src="/videos/cafe2.mp4" type="video/mp4" />
+                <source src="https://media.hacienda-guadalupe.com/videos/cafe2.mp4" type="video/mp4" />
                 {tc('videoNotSupported')}
               </video>
 
