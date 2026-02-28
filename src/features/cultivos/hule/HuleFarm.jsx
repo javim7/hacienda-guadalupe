@@ -1,7 +1,10 @@
-// src/features/cultivos/hule/HuleIntroduction.jsx
+// src/features/cultivos/hule/HuleFarm.jsx
 import Image from 'next/image'
+import { useTranslations } from 'next-intl'
 
-export default function HuleIntroduction() {
+export default function HuleFarm() {
+  const t = useTranslations('hule.farm')
+
   return (
     <section className="w-full -mb-px">
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-0 md:min-h-[78vh]">
@@ -9,27 +12,23 @@ export default function HuleIntroduction() {
         <div className="order-1 md:order-1 flex items-start md:items-center">
           <div className="w-full px-6 py-8 md:px-20 md:py-12">
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl mb-6 text-gray-900">
-              Hule en Hacienda Guadalupe
+              {t('title')}
             </h2>
 
             <div className="text-base md:text-lg text-gray-800 leading-relaxed max-w-[620px]">
               <p className="mb-4">
-                En Hacienda Guadalupe, el hule es nuestro cultivo principal. Nos beneficia especialmente el suelo arcilloso rojo, ideal para este cultivo, que permite que nuestros árboles crezcan fuertes y productivos.
+                {t('text1')}
               </p>
               
               <p className="mb-4">
-                Los clones con los que trabajamos son en su mayoría RRIM 600, PB 260 y PB 235, siendo el RRIM 600 el que mejor se ha adaptado a nuestro clima y condiciones.
+                {t('text2')}
               </p>
               
               <p className="mb-4">
-                Contamos con picadores especializados exclusivamente en hule, quienes realizan cortes técnicos y precisos para obtener la mayor producción sin lastimar los árboles.
+                {t('text3')}
               </p>
               
-              <p className="mb-4">
-                En cuanto a prácticas culturales, para el control de hongos del panel utilizamos productos biológicos como <i>Bacillus subtilis</i> y <i>Bacillus pumilus</i>, asegurando un manejo sostenible y respetuoso con el entorno.
-                <br />
-                El control de las malesas lo hacemos de formal manual, ayudando a conservar la vida en el suelo.
-              </p>
+              <p className="mb-4" dangerouslySetInnerHTML={{ __html: t.raw('text4html') }} />
             </div>
           </div>
         </div>
@@ -39,7 +38,7 @@ export default function HuleIntroduction() {
           <div className="w-full h-56 sm:h-72 md:h-full relative overflow-hidden bg-gray-200">
             <Image
               src="/images/Hule/hule2Large.jpeg"
-              alt="Proceso de cultivo de hule en Hacienda Guadalupe"
+              alt={t('imageAlt')}
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
               style={{ objectFit: 'cover', objectPosition: 'center' }}

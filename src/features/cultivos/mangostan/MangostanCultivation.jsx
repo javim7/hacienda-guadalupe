@@ -1,7 +1,10 @@
 // src/features/cultivos/mangostan/MangostanCultivation.jsx
 import { useState, useRef } from 'react'
+import { useTranslations } from 'next-intl'
 
 export default function MangostanCultivation() {
+  const t = useTranslations('mangostan.cultivation')
+  const tc = useTranslations('common')
   const [isPlaying, setIsPlaying] = useState(false)
   const videoRef = useRef(null)
 
@@ -15,17 +18,16 @@ export default function MangostanCultivation() {
       <div className="w-full py-16 md:py-20">
         <div className="mx-auto w-full px-6 md:px-8 lg:px-16 max-w-[1000px] text-center">
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl mb-8 text-gray-900">
-            Nuestro cultivo
+            {t('title')}
           </h2>
 
           <div className="text-base md:text-lg text-gray-800 leading-relaxed mb-8">
             <p className="mb-6">
-              Nuestra plantación cuenta con 3 años, y seguimos estableciendo nuevas áreas. Esperamos el inicio 
-              de producción de los primeros frutos hacia el quinto año.
+              {t('text1')}
             </p>
             
             <p className="mb-6">
-              Contamos con riego por microaspersión, del cual proveemos agua al cultivo según sus requerimientos.
+              {t('text2')}
             </p>
           </div>
 
@@ -39,20 +41,20 @@ export default function MangostanCultivation() {
                 controls={isPlaying}
                 preload="none"                           // ⬅️ don't fetch bytes until user interacts
                 poster="/images/Mangostan/mangostanPoster.jpeg" // ⬅️ native poster shown instantly
-                title="Cultivo de mangostán en Hacienda Guadalupe"
+                title={t('videoTitle')}
                 playsInline
                 onPlay={() => setIsPlaying(true)}
                 onPause={() => setIsPlaying(false)}
               >
                 <source src="/videos/mangostan2.mp4" type="video/mp4" />
-                Tu navegador no soporta el elemento de video.
+                {tc('videoNotSupported')}
               </video>
 
               {/* Overlay play button (no extra image request needed) */}
               {!isPlaying && (
                 <button
                   type="button"
-                  aria-label="Reproducir video"
+                  aria-label={tc('playVideo')}
                   onClick={handlePlayClick}
                   className="absolute inset-0 flex items-center justify-center bg-black/20 hover:bg-black/30 transition-colors cursor-pointer"
                 >
@@ -65,7 +67,7 @@ export default function MangostanCultivation() {
               )}
             </div>
 
-            <p className="text-sm text-gray-600 mt-4 italic">Video: Plantación de mangostán en Hacienda Guadalupe</p>
+            <p className="text-sm text-gray-600 mt-4 italic">{t('videoCaption')}</p>
           </div>
         </div>
       </div>

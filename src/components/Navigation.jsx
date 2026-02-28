@@ -1,13 +1,14 @@
 // src/components/Navigation.jsx
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import { useTranslations } from 'next-intl'
 
-export const navItems = [
-  { href: '/about', label: 'Sobre Nosotros' },
-  { href: '/crops', label: 'Cultivos' },
-  { href: '/cattle', label: 'Ganado' },
-  { href: '/projects', label: 'Proyectos Extra' },
-  { href: '/contact', label: 'Contacto', isButton: false } // Default to regular link
+export const navKeys = [
+  { href: '/about', key: 'about' },
+  { href: '/crops', key: 'crops' },
+  { href: '/cattle', key: 'cattle' },
+  { href: '/projects', key: 'projects' },
+  { href: '/contact', key: 'contact', isButton: false }
 ]
 
 export default function Navigation({ 
@@ -21,12 +22,11 @@ export default function Navigation({
   contactStyle = {}
 }) {
   const pathname = usePathname()
+  const t = useTranslations('common')
   
-  // Filter items based on includeContact prop
-  const itemsToRender = includeContact ? navItems : navItems.filter(item => item.href !== '/contact')
+  const itemsToRender = includeContact ? navKeys : navKeys.filter(item => item.href !== '/contact')
   
   const content = itemsToRender.map((item) => {
-    // Special handling for contact item when it should be styled as a button
     if (item.href === '/contact' && contactButtonStyle) {
       return (
         <Link
@@ -34,16 +34,14 @@ export default function Navigation({
           href={item.href}
           className={contactClassName}
           onClick={onClick}
-          aria-label="Contacto"
+          aria-label={t('nav.contact')}
           style={contactStyle}
         >
-          Contáctanos
+          {t('contactUs')}
         </Link>
       )
     }
     
-    // Regular navigation items
-    // Add underline for selected tabs (excluding homepage and contact)
     const isSelected = pathname === item.href && item.href !== '/contact'
     const linkClasses = isSelected 
       ? `${linkClassName} underline` 
@@ -56,7 +54,7 @@ export default function Navigation({
         className={linkClasses}
         onClick={onClick}
       >
-        {item.label}
+        {t(`nav.${item.key}`)}
       </Link>
     )
   })

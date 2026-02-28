@@ -1,0 +1,355 @@
+{
+  "common": {
+    "nav": {
+      "about": "About Us",
+      "crops": "Crops",
+      "cattle": "Cattle",
+      "projects": "Extra Projects",
+      "contact": "Contact"
+    },
+    "contactUs": "Contact Us",
+    "openMenu": "Open menu",
+    "footer": {
+      "copyright": "© Hacienda Guadalupe – Agricultural and cattle ranching tradition and innovation in Guatemala."
+    },
+    "prevImage": "Previous image",
+    "nextImage": "Next image",
+    "goToImage": "Go to image {number}",
+    "playVideo": "Play video",
+    "videoNotSupported": "Your browser does not support the video element.",
+    "learnMore": "Learn More",
+    "keyFeatures": "Key features:"
+  },
+  "meta": {
+    "home": {
+      "title": "Hacienda Guadalupe - Agricultural and Cattle Ranching Tradition and Innovation in Guatemala",
+      "description": "Mangosteen and Natural Rubber Supplier in Guatemala - Hacienda Guadalupe. Direct producers of fresh Mangosteen, high-quality Natural Rubber and Coffee. With over 150 years of agricultural tradition in Guatemala. We are looking for wholesale buyers interested in exotic fruits and raw materials.",
+      "imageAlt": "Hacienda Guadalupe - Panoramic view of the hacienda",
+      "catalogName": "Agricultural Products and Services",
+      "huleDesc": "Latex extraction and collection with specialized labor",
+      "cafeTitle": "Robusta Coffee",
+      "cafeDesc": "Robusta coffee with precision irrigation and nutrition in an intensive system",
+      "mangostanTitle": "Mangosteen",
+      "mangostanDesc": "Mangosteen cultivated with biological management and bio-inputs",
+      "ganadoTitle": "Gyr Dairy Cattle",
+      "ganadoDesc": "Gyr dairy cattle with ultra-high density grazing"
+    },
+    "about": {
+      "title": "About Us - Hacienda Guadalupe",
+      "description": "Learn more about Hacienda Guadalupe, our agricultural tradition and innovation in Guatemala"
+    },
+    "cattle": {
+      "title": "Cattle - Hacienda Guadalupe",
+      "description": "Discover our Gyr dairy and Boran cattle at Hacienda Guadalupe, with over 30 years of experience in genetics and Voisin rational grazing"
+    },
+    "crops": {
+      "title": "Crops - Hacienda Guadalupe",
+      "description": "Discover our main crops: Rubber, Coffee and Mangosteen at Hacienda Guadalupe"
+    },
+    "hule": {
+      "title": "Natural Rubber - Hacienda Guadalupe",
+      "description": "Discover our natural rubber cultivation at Hacienda Guadalupe, produced sustainably and responsibly"
+    },
+    "cafe": {
+      "title": "Robusta Coffee - Hacienda Guadalupe",
+      "description": "Discover our robusta coffee cultivation at Hacienda Guadalupe, with intensive and modern techniques"
+    },
+    "mangostan": {
+      "title": "Mangosteen - Hacienda Guadalupe",
+      "description": "Discover our mangosteen cultivation at Hacienda Guadalupe, an exotic fruit with multiple health benefits"
+    },
+    "projects": {
+      "title": "Extra Projects - Hacienda Guadalupe",
+      "description": "Discover our innovative projects: Honey, Dragon Fruit and Chlorella at Hacienda Guadalupe"
+    },
+    "contact": {
+      "title": "Contact - Hacienda Guadalupe",
+      "description": "Contact us to learn more about our agricultural and cattle ranching products at Hacienda Guadalupe"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Agricultural and cattle ranching tradition and innovation in Guatemala\nPursuing regenerative and sustainable management in every project",
+      "cta": "Contact Us"
+    },
+    "about": {
+      "title": "Hacienda Guadalupe",
+      "text": "Hacienda Guadalupe, founded in 1958 by Roberto Mombiela de León, continues a family agricultural and cattle ranching tradition spanning over 150 years in Guatemala. Currently under the care of the third generation, the hacienda keeps this heritage alive while combining it with a vision of innovation and sustainability. With pride and responsibility, it works to preserve soil fertility and protect the surrounding flora and fauna, reaffirming its commitment to sustainable development for future generations.",
+      "cta": "About Our Hacienda",
+      "imageAlt": "Person feeding a calf"
+    },
+    "crops": {
+      "title": "Our Crops",
+      "text": "At Hacienda Guadalupe we cultivate rubber, coffee and mangosteen using sustainable practices and modern techniques. In our rubber plantation, latex extraction and collection is carried out by specialized labor. Robusta coffee receives precision irrigation and nutrition in an intensive system that maximizes its productivity. And mangosteen, a young project, is cared for with biological management and bio-inputs to ensure high-quality fruits.",
+      "cta": "About Our Crops"
+    },
+    "cattle": {
+      "title": "Our Cattle",
+      "text": "Roberto Mombiela de León began breeding the Gyr breed in 1978. Over these years, he has won numerous awards at exhibitions and milking competitions. We currently practice regenerative cattle ranching, preserving the life of the soil and its environment through non-selective intensive grazing systems and the use of low-maintenance genetics without the use of chemicals.",
+      "cta": "About Our Cattle",
+      "imageAlt": "Cattle at Hacienda Guadalupe"
+    },
+    "projects": {
+      "title": "Extra Projects",
+      "text": "At Hacienda Guadalupe we go beyond traditional crops with innovative and sustainable projects. We produce high-quality honey with our beehives that also pollinate our crops. We cultivate dragon fruit, an exotic fruit with a unique flavor and exceptional nutritional properties. We develop Chlorella microalgae as a superfood and natural bio-input.",
+      "cta": "About Our Projects"
+    }
+  },
+  "about": {
+    "sectionHeader": "ABOUT US",
+    "history": {
+      "title": "Our History",
+      "text1": "Hacienda Guadalupe was acquired in 1958 by Mr. Roberto Mombiela de León, continuing an agricultural and cattle ranching tradition spanning over 150 years of history.",
+      "text2": "Since then, this heritage has been passed down with pride and responsibility through generations, keeping alive the passion for agriculture and the commitment to excellence in every harvest.",
+      "text3": "Today, the farm is in the hands of its third generation, who, with the accumulated knowledge of the family, has driven intelligent and sustainable diversification, consolidating our legacy and reaffirming our commitment to Guatemalan agriculture.",
+      "imageAlt": "Family tradition at Hacienda Guadalupe"
+    },
+    "team": {
+      "title": "Our Team",
+      "text1": "Under the leadership of Roberto Mombiela Bruni, our team combines the traditional wisdom of generations of farmers with a modern approach to sustainability and innovation.",
+      "text2": "Every member of our team shares the passion for agricultural excellence and the commitment to responsible practices that honor both the land and the communities we serve.",
+      "text3": "We recognize our employees as a fundamental part of Hacienda Guadalupe. Therefore, we are committed to their integral well-being, fostering a safe, dignified, and constantly growing work environment.",
+      "text4": "We work together to keep the family tradition alive while exploring new frontiers in sustainable agriculture, ensuring that Hacienda Guadalupe continues to be a benchmark of quality and environmental responsibility in Guatemala.",
+      "imageAlt": "Hacienda Guadalupe Team",
+      "caption": "Mombiela family, with the grand champion of the Gyr breed, Galilea de Guadalupe, at Expo Reu 2023."
+    },
+    "pillars": {
+      "title": "Our Pillars",
+      "mangostanTitle": "Mangosteen",
+      "mangostanText": "With a 4-year cultivation tradition and constantly expanding, our mangosteen represents excellence in tropical fruits, cultivated with traditional techniques and modern innovations.",
+      "cafeTitle": "Robusta Coffee",
+      "cafeText": "Grown under a highly intensive cycle model that seeks efficiency and quality, our robusta coffee reflects our commitment to excellence in every harvested bean.",
+      "projectsTitle": "Innovation Projects",
+      "projectsText": "We have incorporated innovative projects with dragon fruit, bamboo, and chlorella, reflecting our commitment to exploring new agricultural frontiers and contributing to the sustainable development of the farm.",
+      "imageAlt": "Our agricultural pillars at Hacienda Guadalupe"
+    },
+    "gallery": {
+      "title": "Gallery",
+      "imageAlt": "Image {number} of Hacienda Guadalupe"
+    }
+  },
+  "cattle": {
+    "sectionHeader": "CATTLE",
+    "introduction": {
+      "title": "Introduction",
+      "text1": "Mr. Roberto Mombiela de León began breeding Gyr cattle in 1978, and in the 1990s, he directed his selection toward the dairy line. Over these years, we have participated in multiple fairs, earning numerous awards thanks to the selection and genetic advancement of our cattle.",
+      "text2": "Currently, we are transforming our cattle ranching toward a regenerative model. In this system, we use pasture efficiently, care for the life of the soil and its environment, and work toward a low-maintenance type of cattle, relying on the Boran and Mashona breeds, originally from Africa, which adapt excellently to our climate and conditions.",
+      "imageAlt": "Gyr dairy cattle at Hacienda Guadalupe"
+    },
+    "gyrLechero": {
+      "title": "Gyr Dairy",
+      "text1": "Gyr dairy cattle represent excellence in tropical dairy production. This breed, originally from India, has perfectly adapted to Guatemala's climatic conditions, demonstrating exceptional heat resistance and superior dairy production capacity.",
+      "text2": "Our genetic improvement program focuses on selecting animals with optimal characteristics for milk production, including ideal body conformation, ability to adapt to the tropical climate, and resistance to common diseases in the region.",
+      "text3": "Through years of experience and participation in cattle fairs, we have developed genetics recognized for their quality and productivity, contributing to the development of dairy cattle ranching in Guatemala.",
+      "videoTitle": "Gyr Dairy Cattle - Hacienda Guadalupe",
+      "videoCaption": "Video: Cattle grazing"
+    },
+    "pastoreo": {
+      "title": "Ultra-High Density Grazing (UHDG)",
+      "text1": "Ultra-High Density Grazing (UHDG) is an advanced pasture management system that takes the principles of intensive grazing to a higher level. This method is based on concentrating a large number of animals in small areas for very short periods, simulating the impact of large herds in natural ecosystems.",
+      "text2": "At Hacienda Guadalupe, we implement this system using very small paddocks that are grazed massively for hours. This intense impact stimulates rapid regrowth of pastures and promotes the natural deposition of nutrients in the soil, creating an accelerated fertility cycle.",
+      "text3": "The benefits of UHDG include: maximum efficiency in land use, dramatic improvement in soil health and structure, significant increase in organic matter, faster pasture regeneration cycles, and better body condition of cattle by constantly accessing young and nutritious forage.",
+      "text4": "This system allows us to achieve exceptional productivity while actively regenerating our soils, representing the future of sustainable and high-performance cattle ranching.",
+      "videoTitle": "Voisin Rational Grazing - Hacienda Guadalupe",
+      "videoCaption": "Video: Hacienda Guadalupe paddocks"
+    }
+  },
+  "crops": {
+    "sectionHeader": "CROPS",
+    "hule": {
+      "title": "Rubber",
+      "description": "Our rubber cultivation represents a tradition of excellence and sustainability. We grow high-quality natural rubber, following responsible practices that respect the environment and guarantee the purity of the product.",
+      "benefits": ["Sustainable and responsible cultivation", "High quality and natural purity", "Commitment to the environment"],
+      "imageAlt": "Rubber cultivation at Hacienda Guadalupe"
+    },
+    "cafe": {
+      "title": "Coffee",
+      "description": "Our robusta coffee is grown under an intensive model that seeks efficiency and quality. Every bean reflects our commitment to excellence and the Guatemalan coffee tradition.",
+      "benefits": ["Intensive cultivation model", "High efficiency and quality", "Guatemalan coffee tradition", "Carefully selected beans"],
+      "imageAlt": "Coffee cultivation at Hacienda Guadalupe"
+    },
+    "mangostan": {
+      "title": "Mangosteen",
+      "description": "At Hacienda Guadalupe, we cultivate mangosteen with passion and technique. Mangosteen represents excellence in tropical fruits.",
+      "benefits": ["High-quality tropical fruit", "Rind rich in antioxidants", "Natural anti-inflammatory properties", "Low calorie and rich in fiber"],
+      "imageAlt": "Mangosteen cultivation at Hacienda Guadalupe"
+    }
+  },
+  "hule": {
+    "sectionHeader": "RUBBER",
+    "farm": {
+      "title": "Rubber at Hacienda Guadalupe",
+      "text1": "At Hacienda Guadalupe, rubber is our main crop. We particularly benefit from the red clay soil, ideal for this crop, which allows our trees to grow strong and productive.",
+      "text2": "The clones we work with are mainly RRIM 600, PB 260, and PB 235, with RRIM 600 being the best adapted to our climate and conditions.",
+      "text3": "We have tappers specialized exclusively in rubber, who make technical and precise cuts to obtain the highest production without harming the trees.",
+      "text4html": "Regarding cultural practices, for panel fungus control we use biological products such as <i>Bacillus subtilis</i> and <i>Bacillus pumilus</i>, ensuring sustainable and environmentally respectful management.",
+      "text5": "Weed control is done manually, helping to preserve life in the soil.",
+      "imageAlt": "Rubber cultivation process at Hacienda Guadalupe"
+    },
+    "history": {
+      "title": "History of rubber in Guatemala",
+      "text1": "Natural rubber was introduced in Guatemala in the 1940s and, since then, became a strategic crop for the country. Today there are more than 60,000 hectares and over 30 million trees in production.",
+      "text2": "Guatemala has positioned itself as one of the leading rubber producers in Latin America, thanks to its climate and fertile soils that allow for excellent quality raw material.",
+      "imageAlt": "Rubber cultivation process at Hacienda Guadalupe",
+      "caption": "Rubber plantation at Hacienda Guadalupe"
+    },
+    "products": {
+      "title": "Latex and First-Grade Cup Lump",
+      "intro": "At our hacienda we collect latex and first-grade cup lump:",
+      "latexTitle": "Latex:",
+      "latexText": "is the milky liquid that flows from the tree after incision. It is the finest raw material, used in products that require high purity and elasticity, such as medical gloves, balloons, footwear, and delicate rubber articles.",
+      "chipaTitle": "First-grade cup lump:",
+      "chipaText": "is the transformation of liquid latex to solid, obtained through a coagulation process with formic acid.",
+      "videoTitle": "Rubber extraction process - Hacienda Guadalupe",
+      "videoCaption": "Video: Plantation in production"
+    },
+    "techniques": {
+      "title": "Adapted varieties and grafting technique",
+      "text1": "At Hacienda Guadalupe we work with rubber varieties that we have identified as best adapted to our climate and red clay soil. These are RRIM 600, PB 260, and PB 235.",
+      "text2": "Our process is complete and careful:",
+      "step1": "We select fungus-resistant seeds as rootstock.",
+      "step2": "We obtain buds from our most productive and disease-resistant trees to establish and maintain our clonal garden.",
+      "step3": "We perform grafts to develop trees with higher productivity.",
+      "text3": "In this way, we maintain an integral cycle from seedbed to field, ensuring healthy, strong, and long-term sustainable plantations.",
+      "imageAlt": "Benefits of natural rubber at Hacienda Guadalupe"
+    }
+  },
+  "cafe": {
+    "sectionHeader": "COFFEE",
+    "tradition": {
+      "title": "A tradition that evolves",
+      "text1": "Coffee has always been present in our family's history. For generations we grew highland coffee, keeping alive a tradition that shaped all of Guatemala.",
+      "text2": "However, at Hacienda Guadalupe, due to its climatic conditions and altitude above sea level, we have decided to cultivate robusta coffee, criollo and tropical varieties.",
+      "imageAlt": "Coffee tradition at Hacienda Guadalupe"
+    },
+    "today": {
+      "title": "Our coffee today",
+      "text1": "We currently grow robusta coffee, working with selected seeds with over 30 years of genetic development from Finca Santa Augustina and with tropical robusta.",
+      "text2": "Our farm is located at 280 meters above sea level, with an average temperature of 32°C. Here the climate presents us with two very distinct realities:",
+      "rainyTitle": "Rainy winter:",
+      "rainyText": "with precipitation ranging from 2,000 to 2,500 mm annually, concentrated in this season.",
+      "dryTitle": "Very dry summer:",
+      "dryText": "practically no rain, which has led us to implement a drip irrigation system.",
+      "videoTitle": "Coffee plantation at Hacienda Guadalupe",
+      "videoCaption": "Video: Robusta coffee plantation at Hacienda Guadalupe"
+    },
+    "nutrition": {
+      "title": "Year-round intensive nutrition",
+      "text1": "The irrigation system not only ensures water in summer, it also allows us to fertilize strategically, meeting the nutritional requirements of the crop.",
+      "summerTitle": "In summer:",
+      "summerText": "we apply weekly fertigation in small doses, which keeps growth active.",
+      "winterTitle": "In winter:",
+      "winterText": "we apply fertilizer manually by broadcasting once a month.",
+      "imageAlt": "Intensive nutrition system for coffee at Hacienda Guadalupe"
+    },
+    "system": {
+      "title": "Highly intensive system",
+      "text1": "Inspired by modern techniques from leading countries like Brazil, we have implemented a highly intensive planting system:",
+      "plantDistance": "Distance between plants:",
+      "plantDistanceValue": "0.65 meters.",
+      "rowDistance": "Distance between rows:",
+      "rowDistanceValue": "3 meters.",
+      "irrigation": "Drip irrigation system",
+      "axes": "Stems per plant:",
+      "axesValue": "only two stems are left per plant, to obtain between 10,000 and 12,000 stems per hectare.",
+      "imageAlt": "Intensive coffee cultivation system at Hacienda Guadalupe"
+    }
+  },
+  "mangostan": {
+    "sectionHeader": "MANGOSTEEN",
+    "introduction": {
+      "title": "An exotic fruit, new but promising",
+      "text1": "Mangosteen is a recent project at Hacienda Guadalupe that captivated us with its unique flavor and multiple benefits. This tropical fruit is recognized for being rich in antioxidants, especially xanthones, which give it anti-inflammatory, antioxidant, and even potential anti-diabetic and anti-cancer properties.",
+      "text2": "The mangosteen rind is also valuable: it contains flavonoids, tannins, anthocyanins, and phenolic acids, compounds with antioxidant, antimicrobial, and cell-protective effects. These nutrients help strengthen the immune system, skin, and fight inflammatory processes.",
+      "imageAlt": "Mangosteen cultivated at Hacienda Guadalupe"
+    },
+    "cultivation": {
+      "title": "Our cultivation",
+      "text1": "Our plantation is 3 years old, and we continue establishing new areas. We expect the first fruits to begin production around the fifth year.",
+      "text2": "We have micro-sprinkler irrigation, from which we provide water to the crop according to its requirements.",
+      "videoTitle": "Mangosteen cultivation at Hacienda Guadalupe",
+      "videoCaption": "Video: Mangosteen plantation at Hacienda Guadalupe"
+    },
+    "biology": {
+      "title": "Nutritional and biological management",
+      "text1": "Mangosteen at Hacienda Guadalupe is cared for with special attention to soil biology and plant health:",
+      "text2": "We apply Bacillus, Trichoderma, and mycorrhizae, which strengthen roots, protect against diseases, and improve nutrient absorption.",
+      "chlorellaTitle": "With our Chlorella microalgae production:",
+      "chlorellaIntro": "we produce bio-inputs that we use in two ways:",
+      "foliar": "Foliar application:",
+      "foliarText": "acting as a biostimulant rich in natural amino acids.",
+      "soil": "Soil application:",
+      "soilText": "providing nitrogen and proteins that directly nourish the plant.",
+      "fertilization": "Fertilization:",
+      "fertilizationText": "providing our crop with the nutrients necessary for its growth.",
+      "imageAlt": "Biological management of mangosteen at Hacienda Guadalupe"
+    },
+    "expertise": {
+      "title": "Specialized advisory",
+      "text1html": "We have the support of engineer <strong>Víctor Hugo Diaz Fuentes</strong>, researcher at the National Institute of Forestry, Agricultural and Livestock Research (INIFAP), a Mexican specialist in mangosteen.",
+      "text2html": "He is the author of the book <em>\"Mangosteen: history, botany, cultivation and uses\"</em> dedicated to this fruit and with years of research in its management, who advises us at every stage of the project.",
+      "imageAlt": "Specialized mangosteen advisory with Eng. Víctor Hugo Diaz Fuentes"
+    }
+  },
+  "projects": {
+    "sectionHeader": "EXTRA PROJECTS",
+    "honey": {
+      "title": "Honey",
+      "description": "Our beekeeping project produces high-quality honey, taking advantage of the rich biodiversity of our farm. Bees contribute not only to honey production, but also to the pollination of our crops, creating a healthier and more productive ecosystem.",
+      "benefits": ["High-quality honey production", "Natural crop pollination", "Healthier ecosystem", "Preserved biodiversity"],
+      "imageAlt": "Beehives and honey production at Hacienda Guadalupe"
+    },
+    "pitahaya": {
+      "title": "Dragon Fruit",
+      "description": "Dragon fruit is one of our most innovative crops, an exotic fruit that combines beauty and flavor. We cultivate selected varieties that adapt perfectly to our climate, offering first-quality fruits with a unique flavor and exceptional nutritional properties.",
+      "benefits": ["High-quality exotic fruit", "Exceptional nutritional properties", "Innovative and sustainable cultivation", "Perfect climate adaptation"],
+      "imageAlt": "Dragon fruit cultivation at Hacienda Guadalupe"
+    },
+    "chlorella": {
+      "title": "Chlorella",
+      "description": "Our Chlorella microalgae production represents the forefront of sustainable agriculture. These microalgae are not only a superfood with extraordinary nutritional properties, but we also use them as a natural bio-input to improve the health of our soils and crops.",
+      "benefits": ["Superfood with extraordinary properties", "Natural bio-input for soils", "Cutting-edge sustainable agriculture", "Improves crop health"],
+      "imageAlt": "Chlorella microalgae cultivation at Hacienda Guadalupe"
+    }
+  },
+  "contact": {
+    "sectionHeader": "CONTACT US",
+    "title": "Contact Us",
+    "intro": "Establishing a direct connection with us is essential to learn more about our products and services. We are always available to answer your questions and get to know our clients.",
+    "emailTitle": "Send us an email",
+    "phoneTitle": "Call us",
+    "whatsappTitle": "Message us on WhatsApp",
+    "nameLabel": "Name (required)",
+    "firstNamePlaceholder": "First name",
+    "lastNamePlaceholder": "Last name",
+    "emailLabel": "Email (required)",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell us how we can help you...",
+    "successMessage": "Message sent successfully! We will contact you soon.",
+    "errorMessage": "Error sending message. Please try again.",
+    "sending": "Sending...",
+    "send": "Send",
+    "emailSubject": "Contact message from Hacienda Guadalupe",
+    "heroImageAlt": "Hacienda Guadalupe cattle"
+  },
+  "data": {
+    "cultivos": {
+      "hule": {
+        "title": "Rubber",
+        "excerpt": "Rubber plantations with sustainable management and responsible latex extraction."
+      },
+      "cafe": {
+        "title": "Robusta Coffee",
+        "excerpt": "Quality coffee, agronomic management and local roasting."
+      },
+      "mangostan": {
+        "title": "Mangosteen",
+        "excerpt": "Exotic fruit project with organic management."
+      },
+      "ganado": {
+        "title": "Cattle",
+        "excerpt": "Rational management cattle ranching and genetic improvements."
+      }
+    }
+  }
+}

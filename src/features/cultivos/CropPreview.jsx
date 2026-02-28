@@ -1,6 +1,7 @@
 // src/features/cultivos/CropPreview.jsx
 import Image from 'next/image'
 import Link from 'next/link'
+import { useTranslations } from 'next-intl'
 
 export default function CropPreview({
   title,
@@ -9,13 +10,15 @@ export default function CropPreview({
   imageSrc,
   imageAlt,
   linkHref,
-  buttonText = 'Conoce Más',
+  buttonText,
   reverse = false,
   backgroundColor = 'white',
   textColor = 'gray-900',
   buttonStyle = 'red',
   priority = false
 }) {
+  const tc = useTranslations('common')
+  const resolvedButtonText = buttonText || tc('learnMore')
   const sectionStyle = backgroundColor === 'red' ? { backgroundColor: 'var(--brand-corinto-light)' } : {}
   const titleColor = backgroundColor === 'red' ? 'text-white' : `text-${textColor}`
   const textColorClass = backgroundColor === 'red' ? 'text-white' : `text-${textColor}`
@@ -40,7 +43,7 @@ export default function CropPreview({
               {benefits && (
                 <div className="mb-4">
                   <h3 className={`font-semibold text-lg ${benefitTitleColor} mb-2`}>
-                    Características principales:
+                    {tc('keyFeatures')}
                   </h3>
                   <ul className={`list-disc list-inside space-y-1 ${benefitTextColor}`}>
                     {benefits.map((benefit, index) => (
@@ -61,7 +64,7 @@ export default function CropPreview({
                 }`}
                 style={backgroundColor !== 'red' ? { backgroundColor: 'var(--brand-corinto-light)', color: 'var(--brand-contrast)' } : {}}
               >
-                {buttonText}
+                {resolvedButtonText}
               </Link>
             </div>
           </div>

@@ -2,10 +2,13 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { useTranslations } from 'next-intl'
 import Navigation from './Navigation'
+import LanguageSwitcher from './LanguageSwitcher'
 
 export default function Header() {
   const [open, setOpen] = useState(false)
+  const t = useTranslations('common')
 
   return (
     <header className="bg-white/95 backdrop-blur-sm border-b sticky top-0 z-50">
@@ -13,7 +16,6 @@ export default function Header() {
         <div className="flex items-center gap-4">
           <Link href="/" className="flex items-center gap-4">
             <div className="relative w-14 h-14">
-              {/* Next 13: use `fill` + style for objectFit */}
               <Image
                 src="/images/Otras/favicon.ico"
                 alt="Logo"
@@ -38,13 +40,15 @@ export default function Header() {
               color: 'var(--brand-contrast)'
             }}
           />
+          <LanguageSwitcher />
         </div>
 
-        <div className="tablet:hidden">
+        <div className="tablet:hidden flex items-center gap-2">
+          <LanguageSwitcher />
           <button
             type="button"
             onClick={() => setOpen((v) => !v)}
-            aria-label="Abrir menú"
+            aria-label={t('openMenu')}
             className="p-2 rounded hover:bg-gray-100"
           >
             <svg className={`w-8 h-8 transition-transform duration-300 ease-in-out ${open ? 'rotate-180' : 'rotate-0'}`} viewBox="0 0 24 24" fill="none" stroke="currentColor">

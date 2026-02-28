@@ -1,7 +1,10 @@
 // src/components/Footer.jsx
+import { useTranslations } from 'next-intl'
 import Navigation from './Navigation'
 
 export default function Footer() {
+    const t = useTranslations('common')
+
     return (
       <footer className="brand-bg text-white">
         <div className="max-w-6xl mx-auto px-6 py-8 text-center">
@@ -17,7 +20,6 @@ export default function Footer() {
             </ul>
           </nav>
   
-          {/* Contacto */}
           <div className="mb-3 text-sm">
             <div>
               <a href="mailto:jmmombielah@gmail.com" className="footer-link no-underline">jmmombielah@gmail.com</a>
@@ -30,29 +32,7 @@ export default function Footer() {
             </div>
           </div>
   
-          {/* Icono social minimal (Facebook y WhatsApp) y créditos */}
           <div className="flex flex-col items-center gap-2">
-            {/* <a
-              href="https://www.facebook.com/haciendaguadalupe"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Facebook"
-              className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-white/10 hover:bg-white/20"
-            >
-              <svg
-                className="w-8 h-8"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-              >
-                <path
-                  d="M15.12 8.667H13.5c-.262 0-.5.238-.5.5v1.5h2.117l-.283 2.333H13v6h-2.333v-6H9v-2.333h1.667v-1.5c0-1.667 1.166-3 2.833-3h1.617v2z"
-                  fill="currentColor"
-                />
-              </svg>
-            </a> */}
-
             <a
               href="https://wa.me/50230059357"
               target="_blank"
@@ -60,7 +40,6 @@ export default function Footer() {
               aria-label="WhatsApp"
               className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-white/10 hover:bg-white/20"
             >
-              {/* WhatsApp SVG icon */}
               <svg
                 className="w-5 h-5"
                 viewBox="0 0 24 24"
@@ -75,7 +54,7 @@ export default function Footer() {
             </a>
 
             <div className="text-xs opacity-90">
-            © Hacienda Guadalupe – Tradición e innovación agrícola y ganadera en Guatemala.
+              {t('footer.copyright')}
             </div>
           </div>
         </div>

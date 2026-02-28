@@ -1,5 +1,6 @@
 // src/components/HulePage.jsx
-import Head from 'next/head'
+import { useTranslations } from 'next-intl'
+import SEOHead from '@/components/SEOHead'
 import SectionHeader from '@/components/SectionHeader'
 import HuleFarm from '@/features/cultivos/hule/HuleFarm'
 import HuleHistory from '@/features/cultivos/hule/HuleHistory'
@@ -7,15 +8,12 @@ import HuleProducts from '@/features/cultivos/hule/HuleProducts'
 import HuleTechniques from '@/features/cultivos/hule/HuleTechniques'
 
 export default function Hule() {
+  const t = useTranslations()
+
   return (
     <>
-      <Head>
-        <title>Hule Natural - Hacienda Guadalupe</title>
-        <meta name="description" content="Conoce nuestro cultivo de hule natural en Hacienda Guadalupe, producido de manera sostenible y responsable" />
-      </Head>
-
-      <SectionHeader title="HULE" />
-      
+      <SEOHead title={t('meta.hule.title')} description={t('meta.hule.description')} />
+      <SectionHeader title={t('hule.sectionHeader')} />
       <HuleFarm />
       <HuleHistory />
       <HuleProducts />

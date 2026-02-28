@@ -1,26 +1,25 @@
-// src/features/cultivos/hule/HuleProcess.jsx
+// src/features/cultivos/hule/HuleHistory.jsx
 import Image from 'next/image'
+import { useTranslations } from 'next-intl'
 
-export default function HuleProcess() {
+export default function HuleHistory() {
+  const t = useTranslations('hule.history')
+
   return (
     <section className="w-full -mb-px" style={{ backgroundColor: 'var(--muted)' }}>
       <div className="w-full py-16 md:py-20">
         <div className="mx-auto w-full px-6 md:px-8 lg:px-16 max-w-[1000px] text-center">
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl mb-8 text-gray-900">
-            Historia del hule en Guatemala
+            {t('title')}
           </h2>
 
           <div className="text-base md:text-lg text-gray-800 leading-relaxed">
             <p className="mb-6">
-              El hule natural fue introducido en Guatemala en la década de 1940 y, desde entonces, 
-              se convirtió en un cultivo estratégico para el país. Hoy existen más de 60,000 
-              hectáreas y más de 30 millones de árboles en producción.
+              {t('text1')}
             </p>
             
             <p className="mb-6">
-              Guatemala se ha posicionado como uno de los principales productores de hule en 
-              Latinoamérica, gracias a su clima y a sus suelos fértiles que permiten obtener 
-              materia prima de excelente calidad.
+              {t('text2')}
             </p>
           </div>
 
@@ -29,7 +28,7 @@ export default function HuleProcess() {
             <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-lg bg-gray-200">
               <Image
                 src="/images/Hule/hule.JPG"
-                alt="Proceso de cultivo de hule en Hacienda Guadalupe"
+                alt={t('imageAlt')}
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 90vw, 1000px"
                 style={{ objectFit: 'cover', objectPosition: 'center' }}
@@ -39,7 +38,7 @@ export default function HuleProcess() {
               />
             </div>
             <p className="text-sm text-gray-600 mt-4 italic">
-              Plantación de hule en Hacienda Guadalupe
+              {t('caption')}
             </p>
           </div>
         </div>

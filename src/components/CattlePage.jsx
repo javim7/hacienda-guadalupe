@@ -1,20 +1,18 @@
 // src/components/CattlePage.jsx
-import Head from 'next/head'
+import { useTranslations } from 'next-intl'
+import SEOHead from '@/components/SEOHead'
 import SectionHeader from '@/components/SectionHeader'
 import Introduction from '@/features/cattle/Introduction'
 import GyrLechero from '@/features/cattle/GyrLechero'
 import PastoreoVoisin from '@/features/cattle/PastoreoVoisin'
 
 export default function Cattle() {
+  const t = useTranslations()
+
   return (
     <>
-      <Head>
-        <title>Ganado - Hacienda Guadalupe</title>
-        <meta name="description" content="Conoce nuestro ganado Gyr lechero y Boran en Hacienda Guadalupe, con más de 30 años de experiencia en genética y pastoreo racional Voisin" />
-      </Head>
-
-      <SectionHeader title="GANADO" />
-      
+      <SEOHead title={t('meta.cattle.title')} description={t('meta.cattle.description')} />
+      <SectionHeader title={t('cattle.sectionHeader')} />
       <Introduction />
       <GyrLechero />
       <PastoreoVoisin />

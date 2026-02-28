@@ -1,0 +1,355 @@
+{
+  "common": {
+    "nav": {
+      "about": "Sobre Nosotros",
+      "crops": "Cultivos",
+      "cattle": "Ganado",
+      "projects": "Proyectos Extra",
+      "contact": "Contacto"
+    },
+    "contactUs": "Contáctanos",
+    "openMenu": "Abrir menú",
+    "footer": {
+      "copyright": "© Hacienda Guadalupe – Tradición e innovación agrícola y ganadera en Guatemala."
+    },
+    "prevImage": "Imagen anterior",
+    "nextImage": "Imagen siguiente",
+    "goToImage": "Ir a imagen {number}",
+    "playVideo": "Reproducir video",
+    "videoNotSupported": "Tu navegador no soporta el elemento de video.",
+    "learnMore": "Conoce Más",
+    "keyFeatures": "Características principales:"
+  },
+  "meta": {
+    "home": {
+      "title": "Hacienda Guadalupe - Tradición e Innovación Agrícola y Ganadera en Guatemala",
+      "description": "Proveedor de Mangostán y Hule Natural en Guatemala - Hacienda Guadalupe. Productores directos de Mangostán fresco, Hule natural de alta calidad y Café. Con más de 150 años de tradición agrícola en Guatemala. Buscamos compradores mayoristas e interesados en frutas exóticas y materias primas.",
+      "imageAlt": "Hacienda Guadalupe - Vista panorámica de la hacienda",
+      "catalogName": "Productos y Servicios Agrícolas",
+      "huleDesc": "Extracción y recolección de látex con mano de obra especializada",
+      "cafeTitle": "Café Robusta",
+      "cafeDesc": "Café robusta con riego y nutrición de precisión en sistema intensivo",
+      "mangostanTitle": "Mangostán",
+      "mangostanDesc": "Mangostán cultivado con manejo biológico y bioinsumos",
+      "ganadoTitle": "Ganado Gyr Lechero",
+      "ganadoDesc": "Ganado Gyr lechero con pastoreo de ultra alta densidad"
+    },
+    "about": {
+      "title": "Sobre Nosotros - Hacienda Guadalupe",
+      "description": "Conoce más sobre Hacienda Guadalupe, nuestra tradición e innovación agrícola en Guatemala"
+    },
+    "cattle": {
+      "title": "Ganado - Hacienda Guadalupe",
+      "description": "Conoce nuestro ganado Gyr lechero y Boran en Hacienda Guadalupe, con más de 30 años de experiencia en genética y pastoreo racional Voisin"
+    },
+    "crops": {
+      "title": "Cultivos - Hacienda Guadalupe",
+      "description": "Conoce nuestros cultivos principales: Hule, Café y Mangostán en Hacienda Guadalupe"
+    },
+    "hule": {
+      "title": "Hule Natural - Hacienda Guadalupe",
+      "description": "Conoce nuestro cultivo de hule natural en Hacienda Guadalupe, producido de manera sostenible y responsable"
+    },
+    "cafe": {
+      "title": "Café Robusta - Hacienda Guadalupe",
+      "description": "Conoce nuestro cultivo de café robusta en Hacienda Guadalupe, con técnicas intensivas y modernas"
+    },
+    "mangostan": {
+      "title": "Mangostán - Hacienda Guadalupe",
+      "description": "Descubre nuestro cultivo de mangostán en Hacienda Guadalupe, una fruta exótica con múltiples beneficios para la salud"
+    },
+    "projects": {
+      "title": "Proyectos Extra - Hacienda Guadalupe",
+      "description": "Descubre nuestros proyectos innovadores: Miel, Pitahaya y Chlorella en Hacienda Guadalupe"
+    },
+    "contact": {
+      "title": "Contacto - Hacienda Guadalupe",
+      "description": "Contáctanos para conocer más sobre nuestros productos agrícolas y ganaderos en Hacienda Guadalupe"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Tradición e innovación agrícola y ganadera en Guatemala\nRealizando un manejo regenerativo y sostenible en cada proyecto",
+      "cta": "Contáctanos"
+    },
+    "about": {
+      "title": "Hacienda Guadalupe",
+      "text": "Hacienda Guadalupe, fundada en 1958 por Roberto Mombiela de León, continúa una tradición agrícola y ganadera familiar con más de 150 años en Guatemala. Actualmente, bajo el cuidado de la tercera generación, la hacienda mantiene viva esa herencia combinándola con una visión de innovación y sostenibilidad. Con orgullo y responsabilidad, trabaja por conservar la fertilidad del suelo y proteger la flora y fauna del entorno, reafirmando su compromiso con el desarrollo sostenible para las futuras generaciones.",
+      "cta": "Sobre Nuestra Hacienda",
+      "imageAlt": "Persona alimentando una ternera"
+    },
+    "crops": {
+      "title": "Nuestros Cultivos",
+      "text": "En Hacienda Guadalupe cultivamos hule, café y mangostán con prácticas sostenibles y técnicas modernas. En nuestra plantación de hule, la extracción y recolección de látex se realiza con mano de obra especializada. El café robusta recibe riego y nutrición de precisión en un sistema intensivo que maximiza su productividad. Y el mangostán, proyecto joven, se cuida con manejo biológico y bioinsumos para asegurar frutos de alta calidad.",
+      "cta": "Sobre Nuestros Cultivos"
+    },
+    "cattle": {
+      "title": "Nuestro Ganado",
+      "text": "Roberto Mombiela de León inició la cría de la raza Gyr en 1978. A lo largo de estos años ha obtenido numerosos premios en exposiciones y concursos de ordeño. Actualmente trabajamos en una ganadería regenerativa, conservando la vida del suelo y su entorno mediante sistemas de pastoreo intensivo no selectivo y el uso de genética de bajo mantenimiento y sin uso de productos químicos.",
+      "cta": "Sobre Nuestro Ganado",
+      "imageAlt": "Ganado en Hacienda Guadalupe"
+    },
+    "projects": {
+      "title": "Proyectos Extra",
+      "text": "En Hacienda Guadalupe vamos más allá de los cultivos tradicionales con proyectos innovadores y sostenibles. Producimos miel de alta calidad con nuestras colmenas que también polinizan nuestros cultivos. Cultivamos pitahaya, una fruta exótica de sabor único y propiedades nutricionales excepcionales. Desarrollamos microalgas Chlorella como superalimento y bioinsumo natural.",
+      "cta": "Sobre Nuestros Proyectos"
+    }
+  },
+  "about": {
+    "sectionHeader": "SOBRE NOSOTROS",
+    "history": {
+      "title": "Nuestra Historia",
+      "text1": "Hacienda Guadalupe fue adquirida en 1958 por el Señor Roberto Mombiela de León, dando así continuidad a una tradición agrícola y ganadera con más de 150 años de historia.",
+      "text2": "Desde entonces, esta herencia se ha transmitido con orgullo y responsabilidad a través de generaciones, manteniendo viva la pasión por la agricultura y el compromiso con la excelencia en cada cosecha.",
+      "text3": "Hoy, la finca está en manos de su tercera generación, que, con el conocimiento acumulado de la familia, ha impulsado una diversificación inteligente y sostenible, consolidando nuestro legado y reafirmando nuestro compromiso con la agricultura guatemalteca.",
+      "imageAlt": "Tradición familiar en Hacienda Guadalupe"
+    },
+    "team": {
+      "title": "Nuestro Equipo",
+      "text1": "Bajo la dirección de Roberto Mombiela Bruni, nuestro equipo combina la sabiduría tradicional de generaciones de agricultores con un enfoque moderno hacia la sostenibilidad y la innovación.",
+      "text2": "Cada miembro de nuestro equipo comparte la pasión por la excelencia agrícola y el compromiso con prácticas responsables que honran tanto la tierra como las comunidades que servimos.",
+      "text3": "Reconocemos a nuestros empleados como parte fundamental de Hacienda Guadalupe. Por ello, estamos comprometidos con su bienestar integral, fomentando un entorno de trabajo seguro, digno y en constante crecimiento.",
+      "text4": "Trabajamos juntos para mantener viva la tradición familiar mientras exploramos nuevas fronteras en la agricultura sostenible, asegurando que Hacienda Guadalupe continúe siendo un referente de calidad y responsabilidad ambiental en Guatemala.",
+      "imageAlt": "Equipo de Hacienda Guadalupe",
+      "caption": "Familia Mombiela, con la gran campeona de la raza Gyr, Galilea de Guadalupe, en Expo Reu 2023."
+    },
+    "pillars": {
+      "title": "Nuestros Pilares",
+      "mangostanTitle": "Mangostán",
+      "mangostanText": "Con una tradición de cultivo de 4 años y en constante expansión, nuestro mangostán representa la excelencia en frutas tropicales, cultivado con técnicas tradicionales y modernas innovaciones.",
+      "cafeTitle": "Café Robusta",
+      "cafeText": "Cultivado bajo un modelo de ciclo altamente intensivo que busca eficacia y calidad, nuestro café robusta refleja nuestro compromiso con la excelencia en cada grano cosechado.",
+      "projectsTitle": "Proyectos de Innovación",
+      "projectsText": "Hemos incorporado proyectos innovadores con pitahaya, bambú y chlorella, reflejando nuestro compromiso por explorar nuevas fronteras agrícolas y contribuir al desarrollo sostenible de la finca.",
+      "imageAlt": "Nuestros pilares agrícolas en Hacienda Guadalupe"
+    },
+    "gallery": {
+      "title": "Galería",
+      "imageAlt": "Imagen {number} de Hacienda Guadalupe"
+    }
+  },
+  "cattle": {
+    "sectionHeader": "GANADO",
+    "introduction": {
+      "title": "Introducción",
+      "text1": "El Señor Roberto Mombiela de León inició la crianza de ganado Gyr en 1978, y en la década de los 90, orientó su selección hacia la línea lechera. A lo largo de estos años, hemos participado en múltiples ferias, obteniendo numerosos premios gracias a la selección y al avance genético de nuestro ganado.",
+      "text2": "Actualmente, estamos transformando nuestra ganadería hacia un modelo regenerativo. En este sistema, utilizamos el pasto de manera eficiente, cuidamos la vida del suelo y su entorno, y trabajamos buscando un tipo de ganado de bajo mantenimiento, apoyandonos en las razas Boran y Mashona, originarias de África, que se adaptan excelentemente a nuestro clima y condiciones.",
+      "imageAlt": "Ganado Gyr lechero en Hacienda Guadalupe"
+    },
+    "gyrLechero": {
+      "title": "Gyr Lechero",
+      "text1": "El ganado Gyr lechero representa la excelencia en la producción láctea tropical. Esta raza originaria de la India se ha adaptado perfectamente a las condiciones climáticas de Guatemala, demostrando una resistencia excepcional al calor y una capacidad de producción láctea superior.",
+      "text2": "Nuestro programa de mejoramiento genético se enfoca en seleccionar animales con características óptimas para la producción de leche, incluyendo conformación corporal ideal, capacidad de adaptación al clima tropical y resistencia a enfermedades comunes en la región.",
+      "text3": "A través de años de experiencia y participación en ferias ganaderas, hemos desarrollado una genética reconocida por su calidad y productividad, contribuyendo al desarrollo de la ganadería lechera en Guatemala.",
+      "videoTitle": "Ganado Gyr Lechero - Hacienda Guadalupe",
+      "videoCaption": "Video: Ganado en pastoreo"
+    },
+    "pastoreo": {
+      "title": "Pastoreo de Ultra Alta Densidad (PUAD)",
+      "text1": "El Pastoreo de Ultra Alta Densidad (PUAD) es un sistema avanzado de manejo de pasturas que lleva los principios del pastoreo intensivo a un nivel superior. Este método se basa en concentrar un gran número de animales en pequeñas áreas por periodos muy cortos, simulando el impacto de las grandes manadas en los ecosistemas naturales.",
+      "text2": "En Hacienda Guadalupe, implementamos este sistema utilizando potreros muy pequeños que son pastoreados de forma masiva durante horas. Este intenso impacto estimula un rápido rebrote de las pasturas y promueve la deposición natural de nutrientes en el suelo, creando un ciclo de fertilidad acelerado.",
+      "text3": "Los beneficios del PUAD incluyen: máxima eficiencia en el uso del terreno, mejora dramática de la salud y estructura del suelo, aumento significativo de la materia orgánica, ciclos de regeneración de pastos más rápidos, y mejor condición corporal del ganado al acceder constantemente a forraje joven y nutritivo.",
+      "text4": "Este sistema nos permite lograr una productividad excepcional mientras regeneramos activamente nuestros suelos, representando el futuro de la ganadería sostenible y de alto rendimiento.",
+      "videoTitle": "Pastoreo Racional Voisin - Hacienda Guadalupe",
+      "videoCaption": "Video: Potreros de Hacienda Guadalupe"
+    }
+  },
+  "crops": {
+    "sectionHeader": "CULTIVOS",
+    "hule": {
+      "title": "Hule",
+      "description": "Nuestro cultivo de hule representa una tradición de excelencia y sostenibilidad. Cultivamos hule natural de alta calidad, siguiendo prácticas responsables que respetan el medio ambiente y garantizan la pureza del producto.",
+      "benefits": ["Cultivo sostenible y responsable", "Alta calidad y pureza natural", "Compromiso con el medio ambiente"],
+      "imageAlt": "Cultivo de hule en Hacienda Guadalupe"
+    },
+    "cafe": {
+      "title": "Café",
+      "description": "Nuestro café robusta se cultiva bajo un modelo intensivo que busca eficiencia y calidad. Cada grano refleja nuestro compromiso con la excelencia y la tradición cafetalera guatemalteca.",
+      "benefits": ["Modelo de cultivo intensivo", "Alta eficiencia y calidad", "Tradición cafetalera guatemalteca", "Granos seleccionados cuidadosamente"],
+      "imageAlt": "Cultivo de café en Hacienda Guadalupe"
+    },
+    "mangostan": {
+      "title": "Mangostán",
+      "description": "En Hacienda Guadalupe, cultivamos el mangostán con pasión y técnica, El mangostán representa la excelencia en frutas tropicales.",
+      "benefits": ["Fruta tropical de alta calidad", "Cascara rica en antioxidantes", "Propiedades antiinflamatorias naturales", "Bajo contenido calórico y rico en fibra"],
+      "imageAlt": "Cultivo de mangostán en Hacienda Guadalupe"
+    }
+  },
+  "hule": {
+    "sectionHeader": "HULE",
+    "farm": {
+      "title": "Hule en Hacienda Guadalupe",
+      "text1": "En Hacienda Guadalupe, el hule es nuestro cultivo principal. Nos beneficia especialmente el suelo arcilloso rojo, ideal para este cultivo, que permite que nuestros árboles crezcan fuertes y productivos.",
+      "text2": "Los clones con los que trabajamos son en su mayoría RRIM 600, PB 260 y PB 235, siendo el RRIM 600 el que mejor se ha adaptado a nuestro clima y condiciones.",
+      "text3": "Contamos con picadores especializados exclusivamente en hule, quienes realizan cortes técnicos y precisos para obtener la mayor producción sin lastimar los árboles.",
+      "text4html": "En cuanto a prácticas culturales, para el control de hongos del panel utilizamos productos biológicos como <i>Bacillus subtilis</i> y <i>Bacillus pumilus</i>, asegurando un manejo sostenible y respetuoso con el entorno.",
+      "text5": "El control de las malesas lo hacemos de formal manual, ayudando a conservar la vida en el suelo.",
+      "imageAlt": "Proceso de cultivo de hule en Hacienda Guadalupe"
+    },
+    "history": {
+      "title": "Historia del hule en Guatemala",
+      "text1": "El hule natural fue introducido en Guatemala en la década de 1940 y, desde entonces, se convirtió en un cultivo estratégico para el país. Hoy existen más de 60,000 hectáreas y más de 30 millones de árboles en producción.",
+      "text2": "Guatemala se ha posicionado como uno de los principales productores de hule en Latinoamérica, gracias a su clima y a sus suelos fértiles que permiten obtener materia prima de excelente calidad.",
+      "imageAlt": "Proceso de cultivo de hule en Hacienda Guadalupe",
+      "caption": "Plantación de hule en Hacienda Guadalupe"
+    },
+    "products": {
+      "title": "Látex y Chipa de primera",
+      "intro": "En nuestra hacienda recolectamos látex y chipa de primera:",
+      "latexTitle": "Látex:",
+      "latexText": "es el líquido lechoso que fluye del árbol tras la incisión. Es la materia prima más fina, utilizada en productos que requieren alta pureza y elasticidad, como guantes médicos, globos, calzado y artículos delicados de caucho.",
+      "chipaTitle": "Chipa de primera:",
+      "chipaText": "es la transformación de látex liquido a sólido, obtenida mediante un proceso de coagulación con ácido fórmico.",
+      "videoTitle": "Proceso de extracción de hule - Hacienda Guadalupe",
+      "videoCaption": "Video: Plantación en producción"
+    },
+    "techniques": {
+      "title": "Variedades adaptadas y técnica de injerto",
+      "text1": "En Hacienda Guadalupe trabajamos con variedades de hule que hemos identificado como las mejor adaptadas a nuestro clima y suelo arcilloso rojo. Siendo estas RRIM 600, PB 260 y PB 235.",
+      "text2": "Nuestro proceso es completo y cuidadoso:",
+      "step1": "Seleccionamos semillas resistentes a hongos como patrón.",
+      "step2": "Obtenemos yemas de nuestros árboles más productivos y resistentes a enfermedades para establecer y mantener nuestro jardín clonal.",
+      "step3": "Realizamos injertos para desarrollar árboles con mayor productividad.",
+      "text3": "De esta manera, mantenemos un ciclo integral que va desde el semillero hasta el campo, asegurando plantaciones sanas, fuertes y sostenibles a largo plazo.",
+      "imageAlt": "Beneficios del hule natural en Hacienda Guadalupe"
+    }
+  },
+  "cafe": {
+    "sectionHeader": "CAFÉ",
+    "tradition": {
+      "title": "Una tradición que evoluciona",
+      "text1": "El café siempre ha estado presente en la historia de nuestra familia. Por generaciones cultivamos café de altura, manteniendo viva una tradición que marcó a toda Guatemala.",
+      "text2": "Sin embargo, en Hacienda Guadalupe, por sus condiciones climáticas y altura sobre el nivel del mar, hemos decidido cultivar café robusta, variedad criollo y tropical.",
+      "imageAlt": "Tradición cafetalera en Hacienda Guadalupe"
+    },
+    "today": {
+      "title": "Nuestro café hoy",
+      "text1": "Actualmente cultivamos café robusta, trabajando con semilla seleccionada con más de 30 años de desarrollo genético proveniente de Finca Santa Augustina y con robusta tropical.",
+      "text2": "Nuestra finca se ubica a 280 metros sobre el nivel del mar, con una temperatura promedio de 32 °C. Aquí el clima nos presenta dos realidades muy marcadas:",
+      "rainyTitle": "Invierno lluvioso:",
+      "rainyText": "con precipitaciones que van de 2,000 a 2,500 mm anuales, concentrados en esta estación.",
+      "dryTitle": "Verano muy seco:",
+      "dryText": "prácticamente sin lluvias, lo que nos ha llevado a implementar un sistema de riego por goteo.",
+      "videoTitle": "Plantación de café en Hacienda Guadalupe",
+      "videoCaption": "Video: Plantación de café robusta en Hacienda Guadalupe"
+    },
+    "nutrition": {
+      "title": "Nutrición intensiva todo el año",
+      "text1": "El sistema de riego no solo asegura agua en verano, también nos permite fertilizar de manera estratégica, llenando los requerimientos nutricionales del cultivo.",
+      "summerTitle": "En verano:",
+      "summerText": "aplicamos fertiriego semanal en pequeñas dosis, lo que mantiene el crecimiento activo.",
+      "winterTitle": "En invierno:",
+      "winterText": "aplicamos el fertilizante de forma manual al voleo una vez al mes.",
+      "imageAlt": "Sistema de nutrición intensiva del café en Hacienda Guadalupe"
+    },
+    "system": {
+      "title": "Sistema altamente intensivo",
+      "text1": "Inspirados en las técnicas modernas de países líderes como Brasil, hemos implementado un sistema de siembra altamente intensivo:",
+      "plantDistance": "Distancia entre plantas:",
+      "plantDistanceValue": "0.65 metros.",
+      "rowDistance": "Distancia entre calles:",
+      "rowDistanceValue": "3 metros.",
+      "irrigation": "Sistema de riego por goteo",
+      "axes": "Ejes por planta:",
+      "axesValue": "se le dejan únicamente dos ejes por planta, para obtener entre 10,000 y 12,000 ejes por hectárea.",
+      "imageAlt": "Sistema intensivo de cultivo de café en Hacienda Guadalupe"
+    }
+  },
+  "mangostan": {
+    "sectionHeader": "MANGOSTÁN",
+    "introduction": {
+      "title": "Una fruta exótica, nueva pero prometedora",
+      "text1": "El mangostán es un proyecto reciente en Hacienda Guadalupe que nos cautivó por su sabor único y sus múltiples beneficios. Esta fruta tropical es reconocida por ser rica en antioxidantes, en especial xantonas, que le confieren propiedades antiinflamatorias, antioxidantes, e incluso potenciales efectos antidiabéticos y anticancerígenos.",
+      "text2": "La cáscara del mangostán también es valiosa: contiene flavonoides, taninos, antocianinas y ácidos fenólicos, compuestos con efectos antioxidantes, antimicrobianos y protectores celulares. Estos nutrientes ayudan a fortalecer el sistema inmunológico, la piel y a combatir procesos inflamatorios.",
+      "imageAlt": "Mangostán cultivado en Hacienda Guadalupe"
+    },
+    "cultivation": {
+      "title": "Nuestro cultivo",
+      "text1": "Nuestra plantación cuenta con 3 años, y seguimos estableciendo nuevas áreas. Esperamos el inicio de producción de los primeros frutos hacia el quinto año.",
+      "text2": "Contamos con riego por microaspersión, del cual proveemos agua al cultivo según sus requerimientos.",
+      "videoTitle": "Cultivo de mangostán en Hacienda Guadalupe",
+      "videoCaption": "Video: Plantación de mangostán en Hacienda Guadalupe"
+    },
+    "biology": {
+      "title": "Manejo nutricional y biológico",
+      "text1": "El mangostán en Hacienda Guadalupe se cuida con especial atención a la biología del suelo y la salud de la planta:",
+      "text2": "Aplicamos Bacillus, Trichoderma y micorrizas, que fortalecen las raíces, protegen contra enfermedades y mejoran la absorción de nutrientes.",
+      "chlorellaTitle": "Con nuestra producción de microalgas Chlorella:",
+      "chlorellaIntro": "elaboramos bioinsumos que usamos en dos vías:",
+      "foliar": "Aplicación foliar:",
+      "foliarText": "actuando como un bioestimulante rico en aminoácidos naturales.",
+      "soil": "Aplicación al suelo:",
+      "soilText": "que aporta nitrógeno y proteínas que nutren directamente la planta.",
+      "fertilization": "Fertilización:",
+      "fertilizationText": "que proporciona a nuestro cultivo los nutrientes necesarios para su crecimiento.",
+      "imageAlt": "Manejo biológico del mangostán en Hacienda Guadalupe"
+    },
+    "expertise": {
+      "title": "Asesoría especializada",
+      "text1html": "Contamos con el apoyo del ingeniero <strong>Víctor Hugo Diaz Fuentes</strong>, investigador del Instituto Nacional de Investigaciones Forestales Agrícolas y Pecuarios (INIFAP), especialista mexicano en mangostán.",
+      "text2html": "Es autor del libro <em>\"El mangostán: historia, botánica, cultivo y usos\"</em> dedicado a esta fruta y con años de investigación en su manejo, quien nos asesora en cada etapa del proyecto.",
+      "imageAlt": "Asesoría especializada en mangostán con el Ing. Víctor Hugo Diaz Fuentes"
+    }
+  },
+  "projects": {
+    "sectionHeader": "PROYECTOS EXTRA",
+    "honey": {
+      "title": "Miel",
+      "description": "Nuestro proyecto de apicultura produce miel de alta calidad, aprovechando la rica biodiversidad de nuestra finca. Las abejas contribuyen no solo a la producción de miel, sino también a la polinización de nuestros cultivos, creando un ecosistema más saludable y productivo.",
+      "benefits": ["Producción de miel de alta calidad", "Polinización natural de cultivos", "Ecosistema más saludable", "Biodiversidad preservada"],
+      "imageAlt": "Colmenas y producción de miel en Hacienda Guadalupe"
+    },
+    "pitahaya": {
+      "title": "Pitahaya",
+      "description": "La pitahaya es uno de nuestros cultivos más innovadores, una fruta exótica que combina belleza y sabor. Cultivamos variedades seleccionadas que se adaptan perfectamente a nuestro clima, ofreciendo frutos de primera calidad con un sabor único y propiedades nutricionales excepcionales.",
+      "benefits": ["Fruta exótica de alta calidad", "Propiedades nutricionales excepcionales", "Cultivo innovador y sostenible", "Adaptación perfecta al clima"],
+      "imageAlt": "Cultivo de pitahaya en Hacienda Guadalupe"
+    },
+    "chlorella": {
+      "title": "Chlorella",
+      "description": "Nuestra producción de microalgas Chlorella representa la vanguardia de la agricultura sostenible. Estas microalgas no solo son un superalimento con propiedades nutricionales extraordinarias, sino que también las utilizamos como bioinsumo natural para mejorar la salud de nuestros suelos y cultivos.",
+      "benefits": ["Superalimento con propiedades extraordinarias", "Bioinsumo natural para suelos", "Agricultura sostenible de vanguardia", "Mejora la salud de cultivos"],
+      "imageAlt": "Cultivo de microalgas Chlorella en Hacienda Guadalupe"
+    }
+  },
+  "contact": {
+    "sectionHeader": "CONTÁCTANOS",
+    "title": "Contáctanos",
+    "intro": "Establecer una conexión directa con nosotros es fundamental para conocer mejor nuestros productos y servicios. Estamos siempre disponibles para responder sus preguntas y conocer a nuestros clientes.",
+    "emailTitle": "Envíanos un correo electrónico",
+    "phoneTitle": "Llámanos",
+    "whatsappTitle": "Escríbenos por WhatsApp",
+    "nameLabel": "Nombre (requerido)",
+    "firstNamePlaceholder": "Nombre",
+    "lastNamePlaceholder": "Apellido",
+    "emailLabel": "Correo electrónico (requerido)",
+    "messageLabel": "Mensaje",
+    "messagePlaceholder": "Cuéntanos cómo podemos ayudarte...",
+    "successMessage": "¡Mensaje enviado exitosamente! Te contactaremos pronto.",
+    "errorMessage": "Error al enviar el mensaje. Por favor, inténtalo de nuevo.",
+    "sending": "Enviando...",
+    "send": "Enviar",
+    "emailSubject": "Mensaje de contacto de Hacienda Guadalupe",
+    "heroImageAlt": "Ganado de Hacienda Guadalupe"
+  },
+  "data": {
+    "cultivos": {
+      "hule": {
+        "title": "Hule",
+        "excerpt": "Plantaciones de hule con manejo sostenible y extracción responsable de látex."
+      },
+      "cafe": {
+        "title": "Café Robusta",
+        "excerpt": "Café de calidad, manejos agronómicos y tostado local."
+      },
+      "mangostan": {
+        "title": "Mangostán",
+        "excerpt": "Proyecto de frutales exóticos con manejo orgánico."
+      },
+      "ganado": {
+        "title": "Ganado",
+        "excerpt": "Ganadería de manejo racional y mejoras genéticas."
+      }
+    }
+  }
+}

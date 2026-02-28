@@ -1,7 +1,10 @@
 // src/features/cultivos/cafe/CafeSystem.jsx
 import Image from 'next/image'
+import { useTranslations } from 'next-intl'
 
 export default function CafeSystem() {
+  const t = useTranslations('cafe.system')
+  
   return (
     <section className="w-full -mb-px" style={{ backgroundColor: 'var(--brand-corinto-light)' }}>
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-0 md:min-h-[78vh]">
@@ -9,20 +12,19 @@ export default function CafeSystem() {
         <div className="order-1 md:order-1 flex items-start md:items-center">
           <div className="w-full px-6 py-8 md:px-20 md:py-12">
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl mb-6 text-white">
-              Sistema altamente intensivo
+              {t('title')}
             </h2>
 
             <div className="text-base md:text-lg text-white leading-relaxed max-w-[620px]">
               <p className="mb-4">
-                Inspirados en las técnicas modernas de países líderes como Brasil, 
-                hemos implementado un sistema de siembra altamente intensivo:
+                {t('text1')}
               </p>
               
               <ul className="list-disc list-inside space-y-2 mb-4 text-white">
-                <li><strong>Distancia entre plantas:</strong> 0.65 metros.</li>
-                <li><strong>Distancia entre calles:</strong> 3 metros.</li>
-                <li><strong>Sistema de riego por goteo</strong></li>
-                <li><strong>Ejes por planta:</strong> se le dejan únicamente dos ejes por planta, para obtener entre 10,000 y 12,000 ejes por hectárea.</li>
+                <li><strong>{t('plantDistance')}</strong> {t('plantDistanceValue')}</li>
+                <li><strong>{t('rowDistance')}</strong> {t('rowDistanceValue')}</li>
+                <li><strong>{t('irrigation')}</strong></li>
+                <li><strong>{t('axes')}</strong> {t('axesValue')}</li>
               </ul>
           
             </div>
@@ -34,7 +36,7 @@ export default function CafeSystem() {
           <div className="w-full h-56 sm:h-72 md:h-full relative overflow-hidden bg-gray-200">
             <Image
               src="/images/Cafe/cafe4.JPG"
-              alt="Sistema intensivo de cultivo de café en Hacienda Guadalupe"
+              alt={t('imageAlt')}
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
               style={{ objectFit: 'cover', objectPosition: 'center' }}

@@ -1,7 +1,10 @@
 // src/features/cultivos/cafe/CafeToday.jsx
 import { useState, useRef } from 'react'
+import { useTranslations } from 'next-intl'
 
 export default function CafeToday() {
+  const t = useTranslations('cafe.today')
+  const tc = useTranslations('common')
   const [isPlaying, setIsPlaying] = useState(false)
   const videoRef = useRef(null)
 
@@ -15,36 +18,33 @@ export default function CafeToday() {
       <div className="w-full py-16 md:py-20">
         <div className="mx-auto w-full px-6 md:px-8 lg:px-16 max-w-[1000px] text-center">
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl mb-8 text-gray-900">
-            Nuestro café hoy
+            {t('title')}
           </h2>
 
           <div className="text-base md:text-lg text-gray-800 leading-relaxed mb-8">
             <p className="mb-6">
-              Actualmente cultivamos café robusta, trabajando con semilla seleccionada con 
-              más de 30 años de desarrollo genético proveniente de Finca Santa Augustina y con robusta 
-              tropical.
+              {t('text1')}
             </p>
             
             <p className="mb-6">
-              Nuestra finca se ubica a 280 metros sobre el nivel del mar, con una temperatura 
-              promedio de 32 °C. Aquí el clima nos presenta dos realidades muy marcadas:
+              {t('text2')}
             </p>
 
             <div className="mb-6">
               <h3 className="font-semibold text-lg text-gray-900 mb-3">
-                Invierno lluvioso:
+                {t('rainyTitle')}
               </h3>
               <p className="mb-4">
-                con precipitaciones que van de 2,000 a 2,500 mm anuales, concentrados en esta estación.
+                {t('rainyText')}
               </p>
             </div>
 
             <div className="mb-6">
               <h3 className="font-semibold text-lg text-gray-900 mb-3">
-                Verano muy seco:
+                {t('dryTitle')}
               </h3>
               <p className="mb-4">
-                prácticamente sin lluvias, lo que nos ha llevado a implementar un sistema de riego por goteo.
+                {t('dryText')}
               </p>
             </div>
           </div>
@@ -59,20 +59,20 @@ export default function CafeToday() {
                 controls={isPlaying}
                 preload="none"                           // ⬅️ don't fetch bytes until user interacts
                 poster="/images/Cafe/cafePoster.jpeg" // ⬅️ native poster shown instantly
-                title="Plantación de café en Hacienda Guadalupe"
+                title={t('videoTitle')}
                 playsInline
                 onPlay={() => setIsPlaying(true)}
                 onPause={() => setIsPlaying(false)}
               >
                 <source src="/videos/cafe2.mp4" type="video/mp4" />
-                Tu navegador no soporta el elemento de video.
+                {tc('videoNotSupported')}
               </video>
 
               {/* Overlay play button (no extra image request needed) */}
               {!isPlaying && (
                 <button
                   type="button"
-                  aria-label="Reproducir video"
+                  aria-label={tc('playVideo')}
                   onClick={handlePlayClick}
                   className="absolute inset-0 flex items-center justify-center bg-black/20 hover:bg-black/30 transition-colors cursor-pointer"
                 >
@@ -85,7 +85,7 @@ export default function CafeToday() {
               )}
             </div>
 
-            <p className="text-sm text-gray-600 mt-4 italic">Video: Plantación de café robusta en Hacienda Guadalupe</p>
+            <p className="text-sm text-gray-600 mt-4 italic">{t('videoCaption')}</p>
           </div>
         </div>
       </div>

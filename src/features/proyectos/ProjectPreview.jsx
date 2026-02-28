@@ -1,6 +1,7 @@
 // src/features/proyectos/ProjectPreview.jsx
 import Image from 'next/image'
 import Link from 'next/link'
+import { useTranslations } from 'next-intl'
 
 export default function ProjectPreview({
   title,
@@ -9,13 +10,15 @@ export default function ProjectPreview({
   imageSrc,
   imageAlt,
   linkHref,
-  buttonText = 'Conoce Más',
+  buttonText,
   reverse = false,
   backgroundColor = 'white',
   textColor = 'gray-900',
   buttonStyle = 'red',
   priority = false
 }) {
+  const tc = useTranslations('common')
+  const resolvedButtonText = buttonText || tc('learnMore')
   const sectionStyle = backgroundColor === 'red' ? { backgroundColor: 'var(--brand-corinto-light)' } : {}
   const titleColor = backgroundColor === 'red' ? 'text-white' : `text-${textColor}`
   const textColorClass = backgroundColor === 'red' ? 'text-white' : `text-${textColor}`
@@ -25,7 +28,6 @@ export default function ProjectPreview({
   return (
     <section className="w-full -mb-px" style={sectionStyle}>
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-0 md:min-h-[78vh]">
-        {/* Text Content */}
         <div className={`order-1 ${reverse ? 'md:order-2' : 'md:order-1'} flex items-start md:items-center`}>
           <div className="w-full px-6 py-8 md:px-20 md:py-12">
             <h2 className={`font-serif text-3xl md:text-4xl lg:text-5xl mb-6 ${titleColor}`}>
@@ -40,7 +42,7 @@ export default function ProjectPreview({
               {benefits && (
                 <div className="mb-4">
                   <h3 className={`font-semibold text-lg ${benefitTitleColor} mb-2`}>
-                    Características principales:
+                    {tc('keyFeatures')}
                   </h3>
                   <ul className={`list-disc list-inside space-y-1 ${benefitTextColor}`}>
                     {benefits.map((benefit, index) => (
@@ -62,14 +64,13 @@ export default function ProjectPreview({
                   }`}
                   style={backgroundColor !== 'red' ? { backgroundColor: 'var(--brand-corinto-light)', color: 'var(--brand-contrast)' } : {}}
                 >
-                  {buttonText}
+                  {resolvedButtonText}
                 </Link>
               </div>
             )}
           </div>
         </div>
 
-        {/* Image */}
         <div className={`order-2 ${reverse ? 'md:order-1' : 'md:order-2'}`}>
           <div className="w-full h-56 sm:h-72 md:h-full relative overflow-hidden bg-gray-200">
             <Image

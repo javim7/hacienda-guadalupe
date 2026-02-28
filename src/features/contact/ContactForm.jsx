@@ -1,8 +1,10 @@
 // src/features/contact/ContactForm.jsx
 import { useState } from 'react'
 import emailjs from '@emailjs/browser'
+import { useTranslations } from 'next-intl'
 
 export default function ContactForm() {
+  const t = useTranslations('contact')
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -38,7 +40,7 @@ export default function ContactForm() {
         page_name: 'Hacienda Guadalupe',
         to_email: 'jmmombielah@gmail.com',
         to_name: 'Jose Mombiela',
-        subject: 'Mensaje de contacto de Hacienda Guadalupe'
+        subject: t('emailSubject')
       }
 
       await emailjs.send(serviceId, templateId, templateParams, publicKey)
@@ -62,21 +64,17 @@ export default function ContactForm() {
             <div className="order-1 md:order-1">
               <div className="max-w-[500px]">
                 <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl mb-8 text-gray-900">
-                  Contáctanos
+                  {t('title')}
                 </h2>
                 
                 <div className="text-base md:text-lg text-gray-800 leading-relaxed mb-8">
-                  <p className="mb-6">
-                    Establecer una conexión directa con nosotros es fundamental para conocer 
-                    mejor nuestros productos y servicios. Estamos siempre disponibles para 
-                    responder sus preguntas y conocer a nuestros clientes.
-                  </p>
+                  <p className="mb-6">{t('intro')}</p>
                 </div>
 
                 <div className="space-y-6">
                   <div>
                     <h3 className="font-semibold text-lg text-gray-900 mb-2">
-                      Envíanos un correo electrónico
+                      {t('emailTitle')}
                     </h3>
                     <a 
                       href="mailto:jmmombielah@gmail.com"
@@ -95,7 +93,7 @@ export default function ContactForm() {
 
                   <div>
                     <h3 className="font-semibold text-lg text-gray-900 mb-2">
-                      Llámanos
+                      {t('phoneTitle')}
                     </h3>
                     <a 
                       href="tel:+50230059357"
@@ -107,7 +105,7 @@ export default function ContactForm() {
 
                   <div>
                     <h3 className="font-semibold text-lg text-gray-900 mb-2">
-                      Escríbenos por WhatsApp
+                      {t('whatsappTitle')}
                     </h3>
                     <div className="flex space-x-4">
                       {/* <a 
@@ -143,7 +141,7 @@ export default function ContactForm() {
                   {/* Name Fields */}
                   <div>
                     <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">
-                      Nombre (requerido)
+                      {t('nameLabel')}
                     </label>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       <input
@@ -154,7 +152,7 @@ export default function ContactForm() {
                         onChange={handleInputChange}
                         required
                         className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-red-500 focus:border-red-500 transition-colors"
-                        placeholder="Nombre"
+                        placeholder={t('firstNamePlaceholder')}
                       />
                       <input
                         type="text"
@@ -164,7 +162,7 @@ export default function ContactForm() {
                         onChange={handleInputChange}
                         required
                         className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-red-500 focus:border-red-500 transition-colors"
-                        placeholder="Apellido"
+                        placeholder={t('lastNamePlaceholder')}
                       />
                     </div>
                   </div>
@@ -172,7 +170,7 @@ export default function ContactForm() {
                   {/* Email Field */}
                   <div>
                     <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                      Correo electrónico (requerido)
+                      {t('emailLabel')}
                     </label>
                     <input
                       type="email"
@@ -189,7 +187,7 @@ export default function ContactForm() {
                   {/* Message Field */}
                   <div>
                     <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                      Mensaje
+                      {t('messageLabel')}
                     </label>
                     <textarea
                       id="message"
@@ -198,20 +196,20 @@ export default function ContactForm() {
                       onChange={handleInputChange}
                       rows={6}
                       className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-red-500 focus:border-red-500 transition-colors resize-vertical"
-                      placeholder="Cuéntanos cómo podemos ayudarte..."
+                      placeholder={t('messagePlaceholder')}
                     ></textarea>
                   </div>
 
                   {/* Status Messages */}
                   {submitStatus === 'success' && (
                     <div className="p-4 bg-green-100 border border-green-400 text-green-700 rounded-md">
-                      ¡Mensaje enviado exitosamente! Te contactaremos pronto.
+                      {t('successMessage')}
                     </div>
                   )}
                   
                   {submitStatus === 'error' && (
                     <div className="p-4 bg-red-100 border border-red-400 text-red-700 rounded-md">
-                      Error al enviar el mensaje. Por favor, inténtalo de nuevo.
+                      {t('errorMessage')}
                     </div>
                   )}
 
@@ -223,7 +221,7 @@ export default function ContactForm() {
                       className="w-full px-6 py-3 rounded-md font-medium transition-opacity disabled:opacity-50"
                       style={{ backgroundColor: 'var(--brand-corinto)', color: 'var(--brand-contrast)' }}
                     >
-                      {isSubmitting ? 'Enviando...' : 'Enviar'}
+                      {isSubmitting ? t('sending') : t('send')}
                     </button>
                   </div>
                 </form>

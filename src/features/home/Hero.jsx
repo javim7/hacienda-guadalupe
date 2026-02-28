@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useTranslations } from 'next-intl'
 
 const CAROUSEL_IMAGES = [
   '/images/Car/vacas2.jpeg',
@@ -16,10 +17,11 @@ const CAROUSEL_IMAGES = [
 const TRANSITION_DURATION = 5000 // 5 seconds
 
 export default function Hero({
-  title = 'Hacienda Guadalupe\nTradición e innovación agrícola en Guatemala',
-  ctaText = 'Conoce Más Sobre Nosotros',
+  title,
+  ctaText,
   ctaHref = '/about'
 }) {
+  const t = useTranslations('common')
   const [currentIndex, setCurrentIndex] = useState(0)
 
   useEffect(() => {
@@ -77,7 +79,7 @@ export default function Hero({
         <button
           onClick={goToPrevious}
           className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-white/80 hover:bg-white text-gray-800 p-2 md:p-3 rounded-full shadow-lg transition-all opacity-0 group-hover:opacity-100"
-          aria-label="Imagen anterior"
+          aria-label={t('prevImage')}
         >
           <svg className="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -87,7 +89,7 @@ export default function Hero({
         <button
           onClick={goToNext}
           className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-white/80 hover:bg-white text-gray-800 p-2 md:p-3 rounded-full shadow-lg transition-all opacity-0 group-hover:opacity-100"
-          aria-label="Imagen siguiente"
+          aria-label={t('nextImage')}
         >
           <svg className="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -105,7 +107,7 @@ export default function Hero({
                   ? 'w-8 h-3 bg-white' 
                   : 'w-3 h-3 bg-white/60 hover:bg-white/80'
               }`}
-              aria-label={`Ir a imagen ${index + 1}`}
+              aria-label={t('goToImage', { number: index + 1 })}
             />
           ))}
         </div>

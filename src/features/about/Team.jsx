@@ -1,47 +1,30 @@
 // src/features/about/Team.jsx
 import Image from 'next/image'
+import { useTranslations } from 'next-intl'
 
 export default function Team() {
+  const t = useTranslations('about.team')
+
   return (
     <section className="w-full -mb-px" style={{ backgroundColor: 'var(--muted)' }}>
       <div className="w-full py-16 md:py-20">
         <div className="mx-auto w-full px-6 md:px-8 lg:px-16 max-w-[1000px] text-center">
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl mb-8 text-gray-900">
-            Nuestro Equipo
+            {t('title')}
           </h2>
 
           <div className="text-base md:text-lg text-gray-800 leading-relaxed mb-8">
-            <p className="mb-6">
-              Bajo la dirección de Roberto Mombiela Bruni, nuestro equipo combina la sabiduría 
-              tradicional de generaciones de agricultores con un enfoque moderno hacia la 
-              sostenibilidad y la innovación.
-            </p>
-            
-            <p className="mb-6">
-              Cada miembro de nuestro equipo comparte la pasión por la excelencia agrícola y 
-              el compromiso con prácticas responsables que honran tanto la tierra como las 
-              comunidades que servimos.
-            </p>
-            
-            <p className="mb-6">
-              Reconocemos a nuestros empleados como parte fundamental de Hacienda Guadalupe. 
-              Por ello, estamos comprometidos con su bienestar integral, fomentando un entorno de trabajo seguro, 
-              digno y en constante crecimiento.
-            </p>
-            
-            <p className="mb-6">
-              Trabajamos juntos para mantener viva la tradición familiar mientras exploramos 
-              nuevas fronteras en la agricultura sostenible, asegurando que Hacienda Guadalupe 
-              continúe siendo un referente de calidad y responsabilidad ambiental en Guatemala.
-            </p>
+            <p className="mb-6">{t('text1')}</p>
+            <p className="mb-6">{t('text2')}</p>
+            <p className="mb-6">{t('text3')}</p>
+            <p className="mb-6">{t('text4')}</p>
           </div>
 
-          {/* Team Image */}
           <div className="w-full max-w-4xl mx-auto">
             <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-lg bg-gray-200">
               <Image
                 src="/images/Otras/team.JPG"
-                alt="Equipo de Hacienda Guadalupe"
+                alt={t('imageAlt')}
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 90vw, 1000px"
                 style={{ objectFit: 'cover', objectPosition: 'center' }}
@@ -50,9 +33,7 @@ export default function Team() {
                 loading="lazy"
               />
             </div>
-            <p className="text-sm text-gray-600 mt-4 italic">
-              Familia Mombiela, con la gran campeona de la raza Gyr, Galilea de Guadalupe, en Expo Reu 2023. 
-            </p>
+            <p className="text-sm text-gray-600 mt-4 italic">{t('caption')}</p>
           </div>
         </div>
       </div>
