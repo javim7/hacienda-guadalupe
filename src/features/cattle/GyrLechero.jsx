@@ -35,7 +35,7 @@ export default function GyrLechero() {
                 id="gyr-video"
                 className="w-full h-full object-cover"
                 controls={isPlaying}
-                preload="metadata"
+                preload="none"
                 poster="/images/Ganado/ganadoPoster.jpeg"
                 title={t('videoTitle')}
                 playsInline

@@ -36,7 +36,7 @@ export default function PastoreoVoisin() {
                 id="voisin-video"
                 className="w-full h-full object-cover"
                 controls={isPlaying}
-                preload="metadata"
+                preload="none"
                 poster="/images/Ganado/ganadoPoster2.jpeg"
                 title={t('videoTitle')}
                 playsInline

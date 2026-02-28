@@ -53,7 +53,7 @@ export default function HuleProducts() {
                 id="hule-video"
                 className="w-full h-full object-cover"
                 controls={isPlaying}
-                preload="metadata"
+                preload="none"                           // ⬅️ don't fetch bytes until user interacts
                 poster="/images/Hule/hulePoster.jpeg" // ⬅️ native poster shown instantly
                 title={t('videoTitle')}
                 playsInline

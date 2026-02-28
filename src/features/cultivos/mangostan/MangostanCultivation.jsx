@@ -39,7 +39,7 @@ export default function MangostanCultivation() {
                 id="mangostan-video"
                 className="w-full h-full object-cover"
                 controls={isPlaying}
-                preload="metadata"
+                preload="none"                           // ⬅️ don't fetch bytes until user interacts
                 poster="/images/Mangostan/mangostanPoster.jpeg" // ⬅️ native poster shown instantly
                 title={t('videoTitle')}
                 playsInline
