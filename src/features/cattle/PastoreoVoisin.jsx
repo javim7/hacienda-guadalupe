@@ -36,14 +36,14 @@ export default function PastoreoVoisin() {
                 id="voisin-video"
                 className="w-full h-full object-cover"
                 controls={isPlaying}
-                preload="metadata"
+                preload="none"
                 poster="/images/Ganado/ganadoPoster2.jpeg"
                 title={t('videoTitle')}
                 playsInline
                 onPlay={() => setIsPlaying(true)}
                 onPause={() => setIsPlaying(false)}
               >
-                <source src="https://media.hacienda-guadalupe.com/videos/voison2.mp4" type="video/mp4" />
+                <source src="/videos/voison2.mp4" type="video/mp4" />
                 {tc('videoNotSupported')}
               </video>
 

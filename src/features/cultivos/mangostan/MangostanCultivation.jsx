@@ -39,14 +39,14 @@ export default function MangostanCultivation() {
                 id="mangostan-video"
                 className="w-full h-full object-cover"
                 controls={isPlaying}
-                preload="metadata"
+                preload="none"                           // ⬅️ don't fetch bytes until user interacts
                 poster="/images/Mangostan/mangostanPoster.jpeg" // ⬅️ native poster shown instantly
                 title={t('videoTitle')}
                 playsInline
                 onPlay={() => setIsPlaying(true)}
                 onPause={() => setIsPlaying(false)}
               >
-                <source src="https://media.hacienda-guadalupe.com/videos/mangostan2.mp4" type="video/mp4" />
+                <source src="/videos/mangostan2.mp4" type="video/mp4" />
                 {tc('videoNotSupported')}
               </video>
 
