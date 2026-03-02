@@ -5,6 +5,14 @@ const nextConfig = {
     locales: ['en', 'es'],
     defaultLocale: 'en',
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'media.hacienda-guadalupe.com',
+      },
+    ],
+  },
 };
 
 export default nextConfig;
