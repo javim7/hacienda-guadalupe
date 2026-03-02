@@ -16,7 +16,7 @@ export default function Cultivos() {
         title={t('crops.hule.title')}
         description={t('crops.hule.description')}
         benefits={t.raw('crops.hule.benefits')}
-        imageSrc="/images/Hule/huleMainLarge.jpeg"
+        imageSrc="https://media.hacienda-guadalupe.com/images/Hule/huleMainLarge.jpeg"
         imageAlt={t('crops.hule.imageAlt')}
         linkHref="/cultivos/hule"
         reverse={false}
@@ -27,7 +27,7 @@ export default function Cultivos() {
         title={t('crops.cafe.title')}
         description={t('crops.cafe.description')}
         benefits={t.raw('crops.cafe.benefits')}
-        imageSrc="/images/Cafe/cafe.JPG"
+        imageSrc="https://media.hacienda-guadalupe.com/images/Cafe/cafe.JPG"
         imageAlt={t('crops.cafe.imageAlt')}
         linkHref="/cultivos/cafe"
         reverse={true}
@@ -38,7 +38,7 @@ export default function Cultivos() {
         title={t('crops.mangostan.title')}
         description={t('crops.mangostan.description')}
         benefits={t.raw('crops.mangostan.benefits')}
-        imageSrc="/images/Mangostan/mangostanMainLarge.jpeg"
+        imageSrc="https://media.hacienda-guadalupe.com/images/Mangostan/mangostanMainLarge.jpeg"
         imageAlt={t('crops.mangostan.imageAlt')}
         linkHref="/cultivos/mangostan"
         reverse={false}

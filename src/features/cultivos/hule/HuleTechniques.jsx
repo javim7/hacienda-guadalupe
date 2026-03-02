@@ -12,7 +12,7 @@ export default function HuleTechniques() {
         <div className="order-2 md:order-1">
           <div className="w-full h-56 sm:h-72 md:h-full relative overflow-hidden bg-gray-300">
             <Image
-              src="/images/Hule/hule3.jpeg"
+              src="https://media.hacienda-guadalupe.com/images/Hule/hule3.jpeg"
               alt={t('imageAlt')}
               fill
               sizes="(max-width: 768px) 100vw, 50vw"

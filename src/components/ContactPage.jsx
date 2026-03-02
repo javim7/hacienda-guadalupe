@@ -17,7 +17,7 @@ export default function Contact() {
       <section className="w-full -mb-px">
         <div className="w-full relative h-[25vh] sm:h-[30vh] md:h-[35vh]">
           <Image
-            src="/images/Otras/huleras.jpg"
+            src="https://media.hacienda-guadalupe.com/images/Otras/huleras.jpg"
             alt={t('contact.heroImageAlt')}
             fill
             style={{ objectFit: 'cover', objectPosition: 'center 60%' }}

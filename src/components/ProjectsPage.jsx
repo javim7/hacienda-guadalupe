@@ -16,7 +16,7 @@ export default function Projects() {
         title={t('projects.honey.title')}
         description={t('projects.honey.description')}
         benefits={t.raw('projects.honey.benefits')}
-        imageSrc="/images/Otras/miel.jpg"
+        imageSrc="https://media.hacienda-guadalupe.com/images/Otras/miel.jpg"
         imageAlt={t('projects.honey.imageAlt')}
         reverse={false}
         priority={true}
@@ -26,7 +26,7 @@ export default function Projects() {
         title={t('projects.pitahaya.title')}
         description={t('projects.pitahaya.description')}
         benefits={t.raw('projects.pitahaya.benefits')}
-        imageSrc="/images/Otras/pitahaya.jpeg"
+        imageSrc="https://media.hacienda-guadalupe.com/images/Otras/pitahaya.jpeg"
         imageAlt={t('projects.pitahaya.imageAlt')}
         reverse={true}
         backgroundColor="red"
@@ -36,7 +36,7 @@ export default function Projects() {
         title={t('projects.chlorella.title')}
         description={t('projects.chlorella.description')}
         benefits={t.raw('projects.chlorella.benefits')}
-        imageSrc="/images/Otras/chlorella.jpg"
+        imageSrc="https://media.hacienda-guadalupe.com/images/Otras/chlorella.jpg"
         imageAlt={t('projects.chlorella.imageAlt')}
         reverse={false}
       />

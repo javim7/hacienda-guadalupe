@@ -17,7 +17,7 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-4">
             <div className="relative w-14 h-14">
               <Image
-                src="/images/Otras/favicon.ico"
+                src="https://media.hacienda-guadalupe.com/images/Otras/favicon.ico"
                 alt="Logo"
                 fill
                 style={{ objectFit: 'contain' }}

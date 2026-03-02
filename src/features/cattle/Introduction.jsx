@@ -22,7 +22,7 @@ export default function Introduction() {
         <div className="order-2 md:order-2">
           <div className="w-full h-56 sm:h-72 md:h-full relative overflow-hidden bg-gray-200">
             <Image
-              src="/images/Ganado/vacaMainLarge.jpeg"
+              src="https://media.hacienda-guadalupe.com/images/Ganado/vacaMainLarge.jpeg"
               alt={t('imageAlt')}
               fill
               sizes="(max-width: 768px) 100vw, 50vw"

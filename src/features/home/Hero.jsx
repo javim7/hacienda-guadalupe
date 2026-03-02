@@ -6,12 +6,12 @@ import Link from 'next/link'
 import { useTranslations } from 'next-intl'
 
 const CAROUSEL_IMAGES = [
-  'https://media.hacienda-guadalupe.com/images/car/vacas2.jpeg',
-  'https://media.hacienda-guadalupe.com/images/car/hulera1.jpeg',
-  'https://media.hacienda-guadalupe.com/images/car/vacas.jpeg',
-  'https://media.hacienda-guadalupe.com/images/car/huleraAbajo.jpeg',
-  'https://media.hacienda-guadalupe.com/images/car/vaca4.jpeg',
-  'https://media.hacienda-guadalupe.com/images/car/hulera2.jpeg'
+  'https://media.hacienda-guadalupe.com/images/Car/vacas2.jpeg',
+  'https://media.hacienda-guadalupe.com/images/Car/hulera1.jpeg',
+  'https://media.hacienda-guadalupe.com/images/Car/vacas.jpeg',
+  'https://media.hacienda-guadalupe.com/images/Car/huleraAbajo.jpeg',
+  'https://media.hacienda-guadalupe.com/images/Car/vaca4.jpeg',
+  'https://media.hacienda-guadalupe.com/images/Car/hulera2.jpeg'
 ]
 
 const TRANSITION_DURATION = 5000 // 5 seconds

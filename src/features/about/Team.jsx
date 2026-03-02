@@ -23,7 +23,7 @@ export default function Team() {
           <div className="w-full max-w-4xl mx-auto">
             <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-lg bg-gray-200">
               <Image
-                src="/images/Otras/team.JPG"
+                src="https://media.hacienda-guadalupe.com/images/Otras/team.JPG"
                 alt={t('imageAlt')}
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 90vw, 1000px"

@@ -20,7 +20,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta property="og:title" content={t('title')} />
         <meta property="og:description" content={t('description')} />
-        <meta property="og:image" content="https://hacienda-guadalupe.com/images/Otras/logo.jpeg" />
+        <meta property="og:image" content="https://media.hacienda-guadalupe.com/images/Otras/logo.jpeg" />
         <meta property="og:image:alt" content={t('imageAlt')} />
         <meta property="og:url" content="https://hacienda-guadalupe.com" />
         <meta property="og:site_name" content="Hacienda Guadalupe" />
@@ -29,7 +29,7 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={t('title')} />
         <meta name="twitter:description" content={t('description')} />
-        <meta name="twitter:image" content="https://hacienda-guadalupe.com/images/Otras/logo.jpeg" />
+        <meta name="twitter:image" content="https://media.hacienda-guadalupe.com/images/Otras/logo.jpeg" />
         <meta name="twitter:image:alt" content={t('imageAlt')} />
         
         {/* Additional SEO Meta Tags */}
@@ -66,8 +66,8 @@ export default function Home() {
               "alternateName": "Hacienda Guadalupe Guatemala",
               "description": t('description'),
               "url": "https://hacienda-guadalupe.com",
-              "logo": "https://hacienda-guadalupe.com/images/Otras/logo.jpeg",
-              "image": "https://hacienda-guadalupe.com/images/Car/vacas2.jpeg",
+              "logo": "https://media.hacienda-guadalupe.com/images/Otras/logo.jpeg",
+              "image": "https://media.hacienda-guadalupe.com/images/Car/vacas2.jpeg",
               "foundingDate": "1958",
               "founder": {
                 "@type": "Person",

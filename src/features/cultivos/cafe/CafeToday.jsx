@@ -58,7 +58,7 @@ export default function CafeToday() {
                 className="w-full h-full object-cover"
                 controls={isPlaying}
                 preload="metadata"
-                poster="/images/Cafe/cafePoster.jpeg" // ⬅️ native poster shown instantly
+                poster="https://media.hacienda-guadalupe.com/images/Cafe/cafePoster.jpeg" // ⬅️ native poster shown instantly
                 title={t('videoTitle')}
                 playsInline
                 onPlay={() => setIsPlaying(true)}

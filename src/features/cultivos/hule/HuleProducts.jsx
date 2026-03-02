@@ -54,7 +54,7 @@ export default function HuleProducts() {
                 className="w-full h-full object-cover"
                 controls={isPlaying}
                 preload="metadata"
-                poster="/images/Hule/hulePoster.jpeg" // ⬅️ native poster shown instantly
+                poster="https://media.hacienda-guadalupe.com/images/Hule/hulePoster.jpeg" // ⬅️ native poster shown instantly
                 title={t('videoTitle')}
                 playsInline
                 onPlay={() => setIsPlaying(true)}

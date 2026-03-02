@@ -35,7 +35,7 @@ export default function CafeSystem() {
         <div className="order-2 md:order-2">
           <div className="w-full h-56 sm:h-72 md:h-full relative overflow-hidden bg-gray-200">
             <Image
-              src="/images/Cafe/cafe4.JPG"
+              src="https://media.hacienda-guadalupe.com/images/Cafe/cafe4.JPG"
               alt={t('imageAlt')}
               fill
               sizes="(max-width: 768px) 100vw, 50vw"

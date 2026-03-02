@@ -22,7 +22,7 @@ export default function HomePage() {
       text={t('about.text')}
       ctaText={t('about.cta')}
       ctaHref="/about"
-      imageSrc="/images/Otras/iglesia.JPG"
+      imageSrc="https://media.hacienda-guadalupe.com/images/Otras/iglesia.JPG"
       imageAlt={t('about.imageAlt')}
     />
 
@@ -38,7 +38,7 @@ export default function HomePage() {
       text={t('cattle.text')}
       ctaText={t('cattle.cta')}
       ctaHref="/cattle"
-      imageSrc="/images/Ganado/vacasLarge.jpeg"
+      imageSrc="https://media.hacienda-guadalupe.com/images/Ganado/vacasLarge.jpeg"
       imageAlt={t('cattle.imageAlt')}
     />
 

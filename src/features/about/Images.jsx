@@ -6,10 +6,10 @@ export default function Images() {
   const t = useTranslations('about.gallery')
 
   const imageRoutes = [
-    '/images/Hule/hule3.jpeg',
-    '/images/Ganado/vaca.JPG',
-    '/images/Ganado/vaca2.JPG',
-    '/images/Hule/hule2.jpeg',
+    'https://media.hacienda-guadalupe.com/images/Hule/hule3.jpeg',
+    'https://media.hacienda-guadalupe.com/images/Ganado/vaca.JPG',
+    'https://media.hacienda-guadalupe.com/images/Ganado/vaca2.JPG',
+    'https://media.hacienda-guadalupe.com/images/Hule/hule2.jpeg',
   ]
 
   return (
