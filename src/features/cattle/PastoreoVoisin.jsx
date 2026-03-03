@@ -6,12 +6,19 @@ export default function PastoreoVoisin() {
   const t = useTranslations('cattle.pastoreo')
   const tc = useTranslations('common')
   const [isPlaying, setIsPlaying] = useState(false)
+  const [videoSrc, setVideoSrc] = useState(null)
   const videoRef = useRef(null)
 
   const handlePlayClick = () => {
-    const el = videoRef.current
-    if (!el) return
-    el.play()
+    if (!videoSrc) setVideoSrc('https://media.hacienda-guadalupe.com/videos/voison2.mp4')
+    setIsPlaying(true)
+
+    requestAnimationFrame(() => {
+      const v = videoRef.current
+      if (!v) return
+      v.load()
+      v.play().catch(() => setIsPlaying(false))
+    })
   }
 
   return (
@@ -43,7 +50,7 @@ export default function PastoreoVoisin() {
                 onPlay={() => setIsPlaying(true)}
                 onPause={() => setIsPlaying(false)}
               >
-                <source src="/videos/voison2.mp4" type="video/mp4" />
+                {videoSrc && <source src={videoSrc} type="video/mp4" />}
                 {tc('videoNotSupported')}
               </video>
 

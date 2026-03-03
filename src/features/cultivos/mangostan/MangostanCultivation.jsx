@@ -6,12 +6,19 @@ export default function MangostanCultivation() {
   const t = useTranslations('mangostan.cultivation')
   const tc = useTranslations('common')
   const [isPlaying, setIsPlaying] = useState(false)
+  const [videoSrc, setVideoSrc] = useState(null)
   const videoRef = useRef(null)
 
   const handlePlayClick = () => {
-    const el = videoRef.current
-    if (!el) return
-    el.play()
+    if (!videoSrc) setVideoSrc('https://media.hacienda-guadalupe.com/videos/mangostan2.mp4')
+    setIsPlaying(true)
+
+    requestAnimationFrame(() => {
+      const v = videoRef.current
+      if (!v) return
+      v.load()
+      v.play().catch(() => setIsPlaying(false))
+    })
   }
   return (
     <section className="w-full -mb-px" style={{ backgroundColor: 'var(--muted)' }}>
@@ -46,7 +53,7 @@ export default function MangostanCultivation() {
                 onPlay={() => setIsPlaying(true)}
                 onPause={() => setIsPlaying(false)}
               >
-                <source src="/videos/mangostan2.mp4" type="video/mp4" />
+                {videoSrc && <source src={videoSrc} type="video/mp4" />}
                 {tc('videoNotSupported')}
               </video>
 

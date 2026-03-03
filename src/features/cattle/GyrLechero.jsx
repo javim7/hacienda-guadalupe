@@ -6,12 +6,19 @@ export default function GyrLechero() {
   const t = useTranslations('cattle.gyrLechero')
   const tc = useTranslations('common')
   const [isPlaying, setIsPlaying] = useState(false)
+  const [videoSrc, setVideoSrc] = useState(null)
   const videoRef = useRef(null)
 
   const handlePlayClick = () => {
-    const el = videoRef.current
-    if (!el) return
-    el.play()
+    if (!videoSrc) setVideoSrc('https://media.hacienda-guadalupe.com/videos/ganado.mp4')
+    setIsPlaying(true)
+
+    requestAnimationFrame(() => {
+      const v = videoRef.current
+      if (!v) return
+      v.load()
+      v.play().catch(() => setIsPlaying(false))
+    })
   }
 
   return (
@@ -42,7 +49,7 @@ export default function GyrLechero() {
                 onPlay={() => setIsPlaying(true)}
                 onPause={() => setIsPlaying(false)}
               >
-                <source src="/videos/ganado.mp4" type="video/mp4" />
+                {videoSrc && <source src={videoSrc} type="video/mp4" />}
                 {tc('videoNotSupported')}
               </video>
 
