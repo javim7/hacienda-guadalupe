@@ -43,7 +43,7 @@ export default function GyrLechero() {
                 className="w-full h-full object-cover"
                 controls={isPlaying}
                 preload="metadata"
-                poster="https://media.hacienda-guadalupe.com/images/Ganado/ganadoPoster.jpeg"
+                poster="https://media.hacienda-guadalupe.com/images/Ganado/ganadoPoster.webp"
                 title={t('videoTitle')}
                 playsInline
                 onPlay={() => setIsPlaying(true)}

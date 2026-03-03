@@ -47,7 +47,7 @@ export default function MangostanCultivation() {
                 className="w-full h-full object-cover"
                 controls={isPlaying}
                 preload="metadata"
-                poster="https://media.hacienda-guadalupe.com/images/Mangostan/mangostanPoster.jpeg" // ⬅️ native poster shown instantly
+                poster="https://media.hacienda-guadalupe.com/images/Mangostan/mangostanPoster.webp" // ⬅️ native poster shown instantly
                 title={t('videoTitle')}
                 playsInline
                 onPlay={() => setIsPlaying(true)}
