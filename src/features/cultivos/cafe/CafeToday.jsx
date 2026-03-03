@@ -10,7 +10,7 @@ export default function CafeToday() {
   const videoRef = useRef(null)
 
   const handlePlayClick = () => {
-    if (!videoSrc) setVideoSrc('https://media.hacienda-guadalupe.com/videos/cafe2.mp4')
+    if (!videoSrc) setVideoSrc('https://media.hacienda-guadalupe.com/videos2/cafe2.mp4')
     setIsPlaying(true)
 
     requestAnimationFrame(() => {

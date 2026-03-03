@@ -10,7 +10,7 @@ export default function MangostanCultivation() {
   const videoRef = useRef(null)
 
   const handlePlayClick = () => {
-    if (!videoSrc) setVideoSrc('https://media.hacienda-guadalupe.com/videos/mangostan2.mp4')
+    if (!videoSrc) setVideoSrc('https://media.hacienda-guadalupe.com/videos2/mangostan2.mp4')
     setIsPlaying(true)
 
     requestAnimationFrame(() => {

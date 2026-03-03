@@ -10,7 +10,7 @@ export default function HuleProducts() {
   const videoRef = useRef(null)
 
   const handlePlayClick = () => {
-    if (!videoSrc) setVideoSrc('https://media.hacienda-guadalupe.com/videos/huleFly3.mp4')
+    if (!videoSrc) setVideoSrc('https://media.hacienda-guadalupe.com/videos2/huleFly3.mp4')
     setIsPlaying(true)
 
     requestAnimationFrame(() => {

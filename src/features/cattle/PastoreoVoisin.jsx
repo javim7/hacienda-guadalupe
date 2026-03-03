@@ -10,7 +10,7 @@ export default function PastoreoVoisin() {
   const videoRef = useRef(null)
 
   const handlePlayClick = () => {
-    if (!videoSrc) setVideoSrc('https://media.hacienda-guadalupe.com/videos/voison2.mp4')
+    if (!videoSrc) setVideoSrc('https://media.hacienda-guadalupe.com/videos2/voison2.mp4')
     setIsPlaying(true)
 
     requestAnimationFrame(() => {

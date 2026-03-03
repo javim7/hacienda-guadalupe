@@ -10,7 +10,7 @@ export default function GyrLechero() {
   const videoRef = useRef(null)
 
   const handlePlayClick = () => {
-    if (!videoSrc) setVideoSrc('https://media.hacienda-guadalupe.com/videos/ganado.mp4')
+    if (!videoSrc) setVideoSrc('https://media.hacienda-guadalupe.com/videos2/ganado.mp4')
     setIsPlaying(true)
 
     requestAnimationFrame(() => {
